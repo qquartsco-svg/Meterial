@@ -1,7 +1,7 @@
 {
   "schema": "chemical_reaction_integrity_v1",
-  "timestamp_utc": "2026-04-02T09:25:14.781904+00:00",
-  "previous_manifest_hash": "0316c4ffd31eab12fa89cd206759dbafe6c882a6227847219de1d4f0623b269f",
+  "timestamp_utc": "2026-04-02T09:27:38.660244+00:00",
+  "previous_manifest_hash": "c5e31f012768d2efe0f5123e806917601ec2f65caedc87ae774ec349fcf47478",
   "file_count": 32,
   "files": {
     "chemical_reaction/__init__.py": "dedc96d0ba9b2291c3ea97d19d6d7b2fffa0b31d39183f3c588f4874c0b893c2",
@@ -21,7 +21,7 @@
     "tests/conftest.py": "c50c8305f585c9551191788e47ab0cbebac1b54229902d72a7bd11ce8f5ae4b5",
     "tests/test_chemical_foundation.py": "0f5f2fac64770f826e693bc3750998b496c5dc5476ee237d34e6b8f424da05e7",
     "tests/test_package_integrity.py": "1bb73586c931fb572865c5b806c2b78909d09ea23ee89bd64e3acc9e66490aca",
-    "scripts/cleanup_generated.py": "5ae70041534b19d5b24de74897898e3033be6950a03bb91d7e412084aec0010d",
+    "scripts/cleanup_generated.py": "4fabd2d8a901f1a0fedb021f327a2606cc978ba388e3190d8d560c1aa0f73e95",
     "scripts/generate_signature.py": "e4821d3d963cfe26fc95faec4dad7fde08bbe08d3ea976851f173925aa80bee6",
     "scripts/release_check.py": "e73790f10156d88628b419e4827da0d177777f9190516d5f11e093096d45d8be",
     "scripts/verify_package_identity.py": "201581852a266760c4a885ec072530b1ab0d7e43afd960ca8da96ca5f8a81211",
@@ -37,5 +37,5 @@
     "docs/DESIGN_SPEC.md": "cfc0715a277056beb03e58cef854e3a7f822bfb1313f6923a4f3cbd9abbf0e96",
     "docs/DESIGN_SPEC_EN.md": "cc988487406a1009d3cdefcbc49ec87741ddcb484193e6dc0dd24f8c43214765"
   },
-  "block_hash": "351241423d39cf9f5fadbebe0e64efcda41ded05ff78948ca2e07941dced5162"
+  "block_hash": "7179dbb3096e7095b96975355603b29e6f7cad0ebe9d68c86e45c73fed0d1b65"
 }

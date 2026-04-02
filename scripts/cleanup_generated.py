@@ -10,6 +10,7 @@ TARGETS = [
     ROOT / ".pytest_cache",
     ROOT / "tests" / "__pycache__",
     ROOT / "chemical_reaction" / "__pycache__",
+    ROOT / "scripts" / "__pycache__",
 ]
 
 
