@@ -1,0 +1,19 @@
+{
+  "files": {
+    "radon/__init__.py": "202c44ca17e0e1933a96ce99a4ddcfc6fb1e77677b8da4f6ece1f98136314d4e",
+    "radon/constants.py": "d5510f2ccbe81fd2dcad349a733e7f1df08241dd270d33e1cbcfa67049871c92",
+    "radon/contracts.py": "921fd54dae095a2843e2eb053b5c25e4ed12b939653af5741598146aedf48822",
+    "radon/foundation.py": "e7cc45fc2da75cb5d8263bdf63efb3133e807777e43e96010e9f68640a868d91",
+    "tests/conftest.py": "426e78beca88d02e4491ddcdc892ee7144cd4e232625a23d2c0ccd1f457b3981",
+    "tests/test_radon_foundation.py": "05dbfb01aae089c2650cda413d2a1d22a9e60f06698f7db4804c9fc8e519ad11",
+    "README.md": "a24c4c36fa402b60fa210f8b61e62edfe7e19ec1cac2438582ebe2162d638f60",
+    "README_EN.md": "4113ba9818f4821fe183119ba8e0c79160f83fcd5136792d8b64de8dacd14d1d",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "pyproject.toml": "250bdb24e56928c9349cc33d81a8371c62d8a04829c04336df18da0e198012c5",
+    "CHANGELOG.md": "fcf3e8d46f7c5c285ae29c2580d2f4cc069f5489bdf2c1d710e311c159b57e79",
+    "scripts/generate_signature.py": "1dd7b0a82cb290c34178ae6e202a26be54264b81e87e149ca1dd1185aac98766",
+    "scripts/verify_signature.py": "715325c4ba38ef80d7868eb59f0f4212f4c6b51591130723969427c0fb7ce75d"
+  },
+  "timestamp": "2026-04-02T10:58:12.497183+00:00",
+  "block_hash": "bc218efa29db9583b1a7bcd8084f39d0d1c7506358bc7b2d8f12b5e13b5bc69f"
+}

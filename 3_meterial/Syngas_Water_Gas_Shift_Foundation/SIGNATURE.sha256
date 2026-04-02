@@ -1,0 +1,19 @@
+{
+  "files": {
+    "syngas_wgs/__init__.py": "202c44ca17e0e1933a96ce99a4ddcfc6fb1e77677b8da4f6ece1f98136314d4e",
+    "syngas_wgs/constants.py": "d7c3e2a8b76a2f18cd6a77b2524757ba4ffc15ba2cafb5953237d8cc46851f89",
+    "syngas_wgs/contracts.py": "70b239e957260e82415f80f71e79599ad83a7f574f28a3b7651f0dff34597a4f",
+    "syngas_wgs/foundation.py": "8bea1ef3b5575f87b94e95aafbcd3bec0ea02c2762e67304babda0cb4b1f3ea6",
+    "tests/conftest.py": "426e78beca88d02e4491ddcdc892ee7144cd4e232625a23d2c0ccd1f457b3981",
+    "tests/test_syngas_wgs_foundation.py": "2b9210dacbfafdfa5ee572aba4ddd79c6f96aedc59b27a6ad89b693b806e21e3",
+    "README.md": "906aea05583b86081da2e1b1f8cefbe8405c9047705084a9fff3184c4cbb1ee3",
+    "README_EN.md": "ebb1ef7b4607bb974b17688ce1ac8be86c5b2687bc991de157cac88a7435a75d",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "pyproject.toml": "f3c710a88e90e945030b17a24a9f9a75272100a24f4b81918bf527029c39fc5a",
+    "CHANGELOG.md": "fcf3e8d46f7c5c285ae29c2580d2f4cc069f5489bdf2c1d710e311c159b57e79",
+    "scripts/generate_signature.py": "c98fd0b5ed87863f5a511a6ce0ffb04fba77e9ff942cc9cbf0d08dee38623bce",
+    "scripts/verify_signature.py": "715325c4ba38ef80d7868eb59f0f4212f4c6b51591130723969427c0fb7ce75d"
+  },
+  "timestamp": "2026-04-02T11:07:12.184459+00:00",
+  "block_hash": "4452af2f883c86c242bd9f66ce1cf2a261016f8bd10b244b800513cb69f8de67"
+}

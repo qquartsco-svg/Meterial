@@ -1,0 +1,10 @@
+[project]
+name='rhenium-foundation'
+version='0.1.0'
+description='Re: Group 6 extension after Mo/W — superalloys, reforming catalysts, scarcity screening.'
+requires-python='>=3.10'
+dependencies=[]
+
+[build-system]
+requires=['setuptools>=68']
+build-backend='setuptools.build_meta'

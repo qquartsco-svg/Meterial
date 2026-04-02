@@ -1,0 +1,19 @@
+{
+  "files": {
+    "potash_kcl/__init__.py": "202c44ca17e0e1933a96ce99a4ddcfc6fb1e77677b8da4f6ece1f98136314d4e",
+    "potash_kcl/constants.py": "30cc7c443fbe7533dc0b42bf2b99161e07dde1af45816230c24d08b5272bb533",
+    "potash_kcl/contracts.py": "4988549496066198dd3fe3a8a3e51b3fe381ce74c82d9c960c68e95c54291a38",
+    "potash_kcl/foundation.py": "c0d347b275eb7390905baadd04db0e017f8f9c3d652345aac8eac84c8fa96918",
+    "tests/conftest.py": "426e78beca88d02e4491ddcdc892ee7144cd4e232625a23d2c0ccd1f457b3981",
+    "tests/test_potash_kcl_foundation.py": "5bcc83069ab86b4a8f1c3cc823715f6daa45c6437bc63552c004aa1e3f1f24d2",
+    "README.md": "368c27c85c5c78bba7450ee959a00be6bea3fbf3cb368a2d03140095afa02680",
+    "README_EN.md": "6704e765c891c8f3af95869a118513a846284113b8ac1a243b01d3a20a769a6d",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "pyproject.toml": "a599cf35ac881f4a3c6046ac56b09c8ee2b665fbbf06e721bb671442fa36a29b",
+    "CHANGELOG.md": "fcf3e8d46f7c5c285ae29c2580d2f4cc069f5489bdf2c1d710e311c159b57e79",
+    "scripts/generate_signature.py": "55f3a8a09225afcbe2ebac1d93bdfd3bba1f69fcc6bc9ad8db1062952ea66445",
+    "scripts/verify_signature.py": "715325c4ba38ef80d7868eb59f0f4212f4c6b51591130723969427c0fb7ce75d"
+  },
+  "timestamp": "2026-04-02T11:16:42.269140+00:00",
+  "block_hash": "f1270221183b6624fc88b1d0d01e2a7b604ea7abeb447de1185194375df0d636"
+}

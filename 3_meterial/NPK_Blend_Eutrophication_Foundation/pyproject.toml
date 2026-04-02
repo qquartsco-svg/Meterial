@@ -1,0 +1,10 @@
+[project]
+name='npk-blend-eutrophication-foundation'
+version='0.1.0'
+description='NPK blends: segregation, runoff, eutrophication and P transport screening.'
+requires-python='>=3.10'
+dependencies=[]
+
+[build-system]
+requires=['setuptools>=68']
+build-backend='setuptools.build_meta'

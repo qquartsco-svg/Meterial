@@ -1,0 +1,10 @@
+[project]
+name='selenium-tellurium-foundation'
+version='0.1.0'
+description='Se/Te: chalcogen extension after S — PV adjacency, by-product supply screening.'
+requires-python='>=3.10'
+dependencies=[]
+
+[build-system]
+requires=['setuptools>=68']
+build-backend='setuptools.build_meta'

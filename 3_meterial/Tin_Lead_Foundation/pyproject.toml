@@ -1,0 +1,10 @@
+[project]
+name='tin-lead-foundation'
+version='0.1.0'
+description='Sn/Pb: soldering, RoHS, lead toxicity, and tin-whisker risk screening.'
+requires-python='>=3.10'
+dependencies=[]
+
+[build-system]
+requires=['setuptools>=68']
+build-backend='setuptools.build_meta'

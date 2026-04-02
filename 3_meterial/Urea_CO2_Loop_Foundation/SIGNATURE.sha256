@@ -1,0 +1,19 @@
+{
+  "files": {
+    "urea_co2/__init__.py": "202c44ca17e0e1933a96ce99a4ddcfc6fb1e77677b8da4f6ece1f98136314d4e",
+    "urea_co2/constants.py": "000fb75f77dbb2fa0476ccdec71712a97de5e56ff02152918fda66caea8941b3",
+    "urea_co2/contracts.py": "d714d5310b6feddf4583cddec6b1c12771c22a6a8ae1afd7ef9c57266e10d6d2",
+    "urea_co2/foundation.py": "6292a9d11953bc89400df3fd169960b6d537b02f4ecc716bcf321958bca6a93d",
+    "tests/conftest.py": "426e78beca88d02e4491ddcdc892ee7144cd4e232625a23d2c0ccd1f457b3981",
+    "tests/test_urea_co2_foundation.py": "c67c0343e4f6272d53551f78e40b451b5a5b471e99dac19c6090471f14483464",
+    "README.md": "1c282eb3dcdd1ae2e4b180421913f653183d3317d69560c2978390012c55b7a9",
+    "README_EN.md": "8cefd45f73d0ff1ffb6e9014f08726c6d1324eee3e956bcdde844506116a48f4",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "pyproject.toml": "683eaa87f6f275f5cbd0d7bbe0590e15749a53ab988fd7a9205337bd50d9fdea",
+    "CHANGELOG.md": "fcf3e8d46f7c5c285ae29c2580d2f4cc069f5489bdf2c1d710e311c159b57e79",
+    "scripts/generate_signature.py": "5bcfcdff8e53bd13b069d1d223a589a4633dad701faf8dd26775f1ed4bb57347",
+    "scripts/verify_signature.py": "715325c4ba38ef80d7868eb59f0f4212f4c6b51591130723969427c0fb7ce75d"
+  },
+  "timestamp": "2026-04-02T11:13:15.536620+00:00",
+  "block_hash": "2cc0f559645c7cf81b226d3bcdd30a9606712eb11f3a9c80352ae84c3a48d58d"
+}

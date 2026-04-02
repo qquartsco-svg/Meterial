@@ -1,0 +1,19 @@
+{
+  "files": {
+    "rare_gases/__init__.py": "202c44ca17e0e1933a96ce99a4ddcfc6fb1e77677b8da4f6ece1f98136314d4e",
+    "rare_gases/constants.py": "5da2b20d2a1d3a6832585e4831d77f61a0514022447274d3c711cecf77deee72",
+    "rare_gases/contracts.py": "b7687e07af7d908c0c2107deaf5d8c732a2330e484a9ed639c1987179159f757",
+    "rare_gases/foundation.py": "f43077a3fc1d3c038322619a5ffd57bf8ac7f0222057360735fcb06456a87f88",
+    "tests/conftest.py": "426e78beca88d02e4491ddcdc892ee7144cd4e232625a23d2c0ccd1f457b3981",
+    "tests/test_rare_gases_foundation.py": "fe4448b2415732e2c11faef8379b5b85d8e643b2fd5aee78c0c71291af83395f",
+    "README.md": "3da103b5cc2c1c351e488af39c2b61d47d579787baa498a6127194bf2a7c319d",
+    "README_EN.md": "44636224de1ac444d7a1b1a51f8694a5de68d6e87e5a3f4001c1e29ef57535f5",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "pyproject.toml": "19efd632961a8d0a8d44351ee90172da6a2cf714b9398d5851c3f127cf449966",
+    "CHANGELOG.md": "fcf3e8d46f7c5c285ae29c2580d2f4cc069f5489bdf2c1d710e311c159b57e79",
+    "scripts/generate_signature.py": "921c964352f4b69ad0289933fe3569233ddbd4c47ae08ba1b5233bef4c98a638",
+    "scripts/verify_signature.py": "715325c4ba38ef80d7868eb59f0f4212f4c6b51591130723969427c0fb7ce75d"
+  },
+  "timestamp": "2026-04-02T10:32:40.831766+00:00",
+  "block_hash": "b30bb5b4808ca9831c86f7b5872dadc2e2dca056e35695688515d7137e356815"
+}

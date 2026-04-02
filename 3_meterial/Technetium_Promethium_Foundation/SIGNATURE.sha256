@@ -1,0 +1,19 @@
+{
+  "files": {
+    "tc_pm/__init__.py": "202c44ca17e0e1933a96ce99a4ddcfc6fb1e77677b8da4f6ece1f98136314d4e",
+    "tc_pm/constants.py": "935321631a02c4e7bcfaffb1da22d6825751c6e7a3165e4b94e772a1466995c2",
+    "tc_pm/contracts.py": "b26e2176ec220e8cafdaef54cabee158d2200f73745822a7104e214d0e181518",
+    "tc_pm/foundation.py": "680a052a37cf0cb31fe1b684ae4511778d745a71c7e4d095c63d7ea66ca88f0b",
+    "tests/conftest.py": "426e78beca88d02e4491ddcdc892ee7144cd4e232625a23d2c0ccd1f457b3981",
+    "tests/test_tc_pm_foundation.py": "c171aa9de8173894d473f92492160bc1f95e793472c348ecdd0166382da3ab26",
+    "README.md": "d38f0bdc1b910aff5c1115294c8f26a35df5ab656e910cd0e4dc283d6f809f05",
+    "README_EN.md": "b7253d9a4de3b6b58ea54c4c14d0d033eb43bc6dbd4d313b0c1c7596f632ccc7",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "pyproject.toml": "0b0fa4c568c6c37eb899fc0fc16fdc89627e35af75668da4233add53a32b137f",
+    "CHANGELOG.md": "fcf3e8d46f7c5c285ae29c2580d2f4cc069f5489bdf2c1d710e311c159b57e79",
+    "scripts/generate_signature.py": "1ce1136b5643406c724d9b7c64a15752933ca5c7b75c0bea41ef2ec0b4cf826c",
+    "scripts/verify_signature.py": "715325c4ba38ef80d7868eb59f0f4212f4c6b51591130723969427c0fb7ce75d"
+  },
+  "timestamp": "2026-04-02T10:58:12.831248+00:00",
+  "block_hash": "447b8aac20ce007f69bee9176abd7cdf165e318ce947e03fa4b294c227c77980"
+}

@@ -1,0 +1,10 @@
+[project]
+name='nitric-ammonium-foundation'
+version='0.1.0'
+description='Nitric acid and ammonium nitrate: Ostwald chain, NOx abatement, AN oxidizer hazard screening.'
+requires-python='>=3.10'
+dependencies=[]
+
+[build-system]
+requires=['setuptools>=68']
+build-backend='setuptools.build_meta'

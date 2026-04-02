@@ -8,7 +8,7 @@ This repository now acts as an **umbrella chemistry repository** for the chemist
 It currently has two layers:
 
 1. a stable root Python package: [`chemical_reaction`](chemical_reaction)
-2. a managed chemistry hub snapshot: [`3_chemical/`](3_chemical)
+2. a managed chemistry hub snapshot: [`3_meterial/`](3_meterial)
 
 > The public repository name is `Meterial`.  
 > The internal Python import remains `chemical_reaction` for compatibility.
@@ -50,7 +50,7 @@ This remains the stable **E5 chemistry root foundation**.
 
 ### 2. Managed chemistry hub snapshot
 
-The folder [`3_chemical/`](3_chemical) bundles the current chemistry layer tree:
+The folder [`3_meterial/`](3_meterial) bundles the current meterial layer tree:
 
 - chemical root
   - `Chemical_Reaction_Foundation`
@@ -80,9 +80,9 @@ The repository is easiest to read in this order:
 
 1. [`chemical_reaction/`](chemical_reaction)
    - the core grammar for reading reactions
-2. [`3_chemical/README.md`](3_chemical/README.md)
+2. [`3_meterial/README.md`](3_meterial/README.md)
    - the chemistry hub structure
-3. [`3_chemical/ELEMENT_REGISTRY.md`](3_chemical/ELEMENT_REGISTRY.md)
+3. [`3_meterial/ELEMENT_REGISTRY.md`](3_meterial/ELEMENT_REGISTRY.md)
    - which element foundations are active or planned
 4. individual foundation / applied engine READMEs
    - specific chemistry domains
@@ -90,7 +90,7 @@ The repository is easiest to read in this order:
 In short:
 
 - `chemical_reaction` = core grammar
-- `3_chemical` = managed layer map
+- `3_meterial` = managed layer map
 
 ---
 
@@ -100,7 +100,7 @@ The current flow can be read like this:
 
 ```text
 chemical_reaction
-  -> 3_chemical/Chemical_Reaction_Foundation
+  -> 3_meterial/Chemical_Reaction_Foundation
   -> element foundations
      -> Hydrogen / Helium / Lithium / Nitrogen / Oxygen / ...
   -> applied chemistry engines
@@ -201,9 +201,9 @@ print(report.omega)
 
 Start with:
 
-- [`3_chemical/README.md`](3_chemical/README.md)
-- [`3_chemical/ELEMENT_REGISTRY.md`](3_chemical/ELEMENT_REGISTRY.md)
-- [`3_chemical/CHEMICAL_GOVERNANCE.md`](3_chemical/CHEMICAL_GOVERNANCE.md)
+- [`3_meterial/README.md`](3_meterial/README.md)
+- [`3_meterial/ELEMENT_REGISTRY.md`](3_meterial/ELEMENT_REGISTRY.md)
+- [`3_meterial/CHEMICAL_GOVERNANCE.md`](3_meterial/CHEMICAL_GOVERNANCE.md)
 
 Then move into the specific element or applied engine you want.
 
@@ -224,7 +224,7 @@ Current verification scripts:
 - `python3 scripts/verify_signature.py`
 - `python3 scripts/release_check.py`
 
-So the repository now checks not only the root package, but also whether the `3_chemical` hub snapshot is actually present.
+So the repository now checks not only the root package, but also whether the `3_meterial` hub snapshot is actually present.
 
 ---
 
@@ -235,7 +235,7 @@ So the repository now checks not only the root package, but also whether the `3_
 - [BLOCKCHAIN_INFO_EN.md](BLOCKCHAIN_INFO_EN.md)
 - [PHAM_BLOCKCHAIN_LOG.md](PHAM_BLOCKCHAIN_LOG.md)
 
-The integrity manifest now tracks the umbrella repository contents, including `3_chemical/`.
+The integrity manifest now tracks the umbrella repository contents, including `3_meterial/`.
 
 This should be read as a repository-level **blockchain-style integrity layer**, not as an absolute truth guarantee.
 
@@ -244,7 +244,7 @@ This should be read as a repository-level **blockchain-style integrity layer**, 
 ## Current Limits
 
 - not every element foundation is equally mature yet
-- `3_chemical` is a managed snapshot, not a claim of final completeness
+- `3_meterial` is a managed snapshot, not a claim of final completeness
 - the root package does not replace high-end chemistry simulators
 - links between the root package and all chemistry sub-engines are still expanding
 - the repository prioritizes manageability and coherence over premature certainty
@@ -259,7 +259,7 @@ Natural next steps include:
 2. adding a `Chemical_Observer_Foundation`
 3. strengthening bridges to applied chemistry engines
 4. improving `VectorSpace_102` adapters
-5. introducing broader hub-wide smoke/release rules for `3_chemical`
+5. introducing broader hub-wide smoke/release rules for `3_meterial`
 
 So `Meterial` is not the end of the chemistry layer.  
 It is the public umbrella used to manage that layer as it grows.
@@ -273,10 +273,10 @@ This repository remains readable and testable even without the full `00_BRAIN` w
 The main distinction is:
 
 - use `chemical_reaction` if you want the stable Python foundation package
-- browse `3_chemical` if you want the current chemistry layer map
+- browse `3_meterial` if you want the current chemistry layer map
 
 That split is intentional.
 
 ---
 
-*Meterial v0.3.0 — a stable chemical root package plus a managed `3_chemical` umbrella snapshot for the evolving chemistry layer.*
+*Meterial v0.3.0 — a stable chemical root package plus a managed `3_meterial` umbrella snapshot for the evolving chemistry layer.*

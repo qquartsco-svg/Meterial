@@ -55,8 +55,8 @@ def test_blockchain_docs_exist() -> None:
     assert (ROOT / "PHAM_BLOCKCHAIN_LOG.md").is_file()
 
 
-def test_3_chemical_hub_exists() -> None:
-    hub = ROOT / "3_chemical"
+def test_3_meterial_hub_exists() -> None:
+    hub = ROOT / "3_meterial"
     assert hub.is_dir()
     assert (hub / "README.md").is_file()
     assert (hub / "ELEMENT_REGISTRY.md").is_file()

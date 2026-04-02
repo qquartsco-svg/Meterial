@@ -10,7 +10,7 @@
 1. 루트 Python 패키지 [`chemical_reaction`](chemical_reaction)
    - 안정적인 E5 chemistry root foundation
    - species, thermodynamics, kinetics, equilibrium, electrochemistry, screening 제공
-2. 허브 스냅샷 [`3_chemical/`](3_chemical)
+2. 허브 스냅샷 [`3_meterial/`](3_meterial)
    - 원소 foundation과 응용 chemistry 엔진을 묶어 보는 chemistry layer tree
    - 현재 만들어진 것들을 기준으로 계속 확장되는 관리 허브
 
@@ -58,7 +58,7 @@
 
 ### 2. Chemistry hub snapshot
 
-[`3_chemical/`](3_chemical) 는 현재 화학 레이어를 이렇게 묶는다.
+[`3_meterial/`](3_meterial) 는 현재 메테리얼 레이어를 이렇게 묶는다.
 
 - chemical root
   - `Chemical_Reaction_Foundation`
@@ -88,15 +88,15 @@
 
 1. [`chemical_reaction/`](chemical_reaction)
    - 화학 반응을 읽는 공통 문법
-2. [`3_chemical/README.md`](3_chemical/README.md)
+2. [`3_meterial/README.md`](3_meterial/README.md)
    - 전체 chemistry layer 허브 구조
-3. [`3_chemical/ELEMENT_REGISTRY.md`](3_chemical/ELEMENT_REGISTRY.md)
+3. [`3_meterial/ELEMENT_REGISTRY.md`](3_meterial/ELEMENT_REGISTRY.md)
    - 어떤 원소 foundation 이 이미 있고 무엇이 planned 인지
 4. 각 element / applied engine README
    - 특정 원소나 공정, 재료, 전기화학 응용의 맥락
 
 즉 루트 패키지는 **core grammar**,  
-`3_chemical` 은 **managed layer map** 으로 읽으면 된다.
+`3_meterial` 은 **managed layer map** 으로 읽으면 된다.
 
 ---
 
@@ -106,7 +106,7 @@
 
 ```text
 chemical_reaction
-  -> 3_chemical/Chemical_Reaction_Foundation
+  -> 3_meterial/Chemical_Reaction_Foundation
   -> element foundations
      -> Hydrogen / Helium / Lithium / Nitrogen / Oxygen / ...
   -> applied chemistry engines
@@ -210,9 +210,9 @@ print(report.omega)
 
 먼저 이 문서를 보고:
 
-- [`3_chemical/README.md`](3_chemical/README.md)
-- [`3_chemical/ELEMENT_REGISTRY.md`](3_chemical/ELEMENT_REGISTRY.md)
-- [`3_chemical/CHEMICAL_GOVERNANCE.md`](3_chemical/CHEMICAL_GOVERNANCE.md)
+- [`3_meterial/README.md`](3_meterial/README.md)
+- [`3_meterial/ELEMENT_REGISTRY.md`](3_meterial/ELEMENT_REGISTRY.md)
+- [`3_meterial/CHEMICAL_GOVERNANCE.md`](3_meterial/CHEMICAL_GOVERNANCE.md)
 
 그다음 관심 있는 원소 foundation 으로 내려가면 된다.
 
@@ -234,7 +234,7 @@ print(report.omega)
 - `python3 scripts/release_check.py`
 
 즉 지금은 루트 패키지 정합성뿐 아니라,  
-`3_chemical` 허브 스냅샷이 레포 안에 존재하는지도 같이 확인한다.
+`3_meterial` 허브 스냅샷이 레포 안에 존재하는지도 같이 확인한다.
 
 ---
 
@@ -246,7 +246,7 @@ print(report.omega)
 - [PHAM_BLOCKCHAIN_LOG.md](PHAM_BLOCKCHAIN_LOG.md)
 
 현재 서명은 루트 패키지뿐 아니라,  
-레포에 포함된 `3_chemical` 트리까지 함께 추적한다.
+레포에 포함된 `3_meterial` 트리까지 함께 추적한다.
 
 이 무결성 층은 “절대 진실 보증”이 아니라,  
 **현재 공개 저장소 상태를 추적하고 drift 를 빨리 발견하기 위한 저장소 레벨 서명**이다.
@@ -256,7 +256,7 @@ print(report.omega)
 ## 현재 한계
 
 - 모든 원소 foundation 이 같은 성숙도에 도달한 것은 아니다
-- `3_chemical` 은 관리 스냅샷이며, 일부 항목은 다른 허브/정본 위치와 관계를 가진다
+- `3_meterial` 은 관리 스냅샷이며, 일부 항목은 다른 허브/정본 위치와 관계를 가진다
 - 고정밀 화학 데이터베이스나 고급 시뮬레이터를 대체하지 않는다
 - root package 와 chemistry hub 사이의 연결은 계속 확장 중이다
 - 이 레포는 “완성 선언”보다 **확장 가능한 chemistry layer 관리**를 우선한다
@@ -271,7 +271,7 @@ print(report.omega)
 2. `Chemical_Observer_Foundation` 계열 추가
 3. applied chemistry engine 과의 bridge 강화
 4. `VectorSpace_102` 와의 hub adapter 보강
-5. `3_chemical` 전체 공통 smoke/release 규칙 정리
+5. `3_meterial` 전체 공통 smoke/release 규칙 정리
 
 즉 `Meterial` 은 chemistry layer 의 끝이 아니라,  
 **화학 레이어를 한 번에 관리하기 위한 public umbrella repository** 다.
@@ -281,15 +281,15 @@ print(report.omega)
 ## 단독 클론 사용자에게
 
 이 저장소는 `00_BRAIN` 전체 없이도 읽고 테스트할 수 있다.  
-다만 공개 저장소 안의 `3_chemical` 은 “현재 chemistry layer 의 관리 스냅샷”이라는 점을 기억하면 좋다.
+다만 공개 저장소 안의 `3_meterial` 은 “현재 chemistry layer 의 관리 스냅샷”이라는 점을 기억하면 좋다.
 
 정리하면:
 
 - 패키지를 쓰고 싶으면 `chemical_reaction`
-- 전체 화학 레이어를 보고 싶으면 `3_chemical`
+- 전체 화학 레이어를 보고 싶으면 `3_meterial`
 
 이 두 진입점을 기억하면 된다.
 
 ---
 
-*Meterial v0.3.0 — stable chemical root package plus a managed `3_chemical` umbrella snapshot for the evolving chemistry layer.*
+*Meterial v0.3.0 — stable chemical root package plus a managed `3_meterial` umbrella snapshot for the evolving chemistry layer.*

@@ -1,0 +1,10 @@
+[project]
+name='urea-co2-loop-foundation'
+version='0.1.0'
+description='Urea from NH3+CO2: stripper energy, CO2 purity and sourcing vs capture screening.'
+requires-python='>=3.10'
+dependencies=[]
+
+[build-system]
+requires=['setuptools>=68']
+build-backend='setuptools.build_meta'

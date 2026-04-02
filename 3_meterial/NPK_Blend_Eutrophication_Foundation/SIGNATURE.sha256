@@ -1,0 +1,19 @@
+{
+  "files": {
+    "npk_eutro/__init__.py": "202c44ca17e0e1933a96ce99a4ddcfc6fb1e77677b8da4f6ece1f98136314d4e",
+    "npk_eutro/constants.py": "608c8458de116d4b978a52d857125153863f026c75361948a2bd779cf8146bb2",
+    "npk_eutro/contracts.py": "66af734f4a66be8007784012c7e7de75857f16bd42ed07c64bf8c3d5f1d84fde",
+    "npk_eutro/foundation.py": "e6e3176234820664ccdf089a588037916ca88d31ef0d0a78aa84def7e2e22e9b",
+    "tests/conftest.py": "426e78beca88d02e4491ddcdc892ee7144cd4e232625a23d2c0ccd1f457b3981",
+    "tests/test_npk_eutro_foundation.py": "4d5a851160b93e03fd561232f07ec68e90f0a0cba1a4a78d1897222c87c108a4",
+    "README.md": "97ca9678881e4d428a0ba4a98e7979991eb39e5cce921d3364565d68e55aa000",
+    "README_EN.md": "23319f46b25ddfcfa184261c889b64ad329f09cfb93fdc1b418fda2994b4bd73",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "pyproject.toml": "c4f3e9e55941a0c39a3e26e6e0e997d81936678ccc322e3c12eb8e2e13d8421e",
+    "CHANGELOG.md": "fcf3e8d46f7c5c285ae29c2580d2f4cc069f5489bdf2c1d710e311c159b57e79",
+    "scripts/generate_signature.py": "133a779effc745c4643a5710ab1e2d64f8b75171c7caaab711a4ff2d1792854d",
+    "scripts/verify_signature.py": "715325c4ba38ef80d7868eb59f0f4212f4c6b51591130723969427c0fb7ce75d"
+  },
+  "timestamp": "2026-04-02T11:16:42.529697+00:00",
+  "block_hash": "a94134e4a652c6caf9a9d027218b32853dfd479b4805fb32b0543bbcd66add76"
+}

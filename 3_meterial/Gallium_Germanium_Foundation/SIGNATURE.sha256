@@ -1,0 +1,19 @@
+{
+  "files": {
+    "ga_ge/__init__.py": "202c44ca17e0e1933a96ce99a4ddcfc6fb1e77677b8da4f6ece1f98136314d4e",
+    "ga_ge/constants.py": "60aca3188c12be19da681d17aaffd40b8ee5e54b5345b6869ce994d596feb75b",
+    "ga_ge/contracts.py": "8092cb406501ce8cc0869bf645f31378b9661730489b5086ae388f297b20f0e4",
+    "ga_ge/foundation.py": "d2eeb911410ac90f25b358ef010aa1a4904e5149f811a3882a17ca7fdd98b7e2",
+    "tests/conftest.py": "426e78beca88d02e4491ddcdc892ee7144cd4e232625a23d2c0ccd1f457b3981",
+    "tests/test_ga_ge_foundation.py": "6c11a836615230ca8afd50f00e8e01d51e9c1e58f6b014033de480db7e9791ba",
+    "README.md": "2ca3ea3e4e27287eb147b6c3c721781f79b53e13809e56b8cf4cf8c75607ba78",
+    "README_EN.md": "c0833bed67f73c6ac2f46a711801adaf7b8c812f6ba8d83de0a2d0a2383669ab",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "pyproject.toml": "370c8a7306d4bcef9bf0ade25a737d846b2bdd30dbcb3c84d2b8c8a119b1b613",
+    "CHANGELOG.md": "fcf3e8d46f7c5c285ae29c2580d2f4cc069f5489bdf2c1d710e311c159b57e79",
+    "scripts/generate_signature.py": "a5ab27dc321c7b7d2a23bc0055eb79a1e5161ebafaf1ac6fac2f17717a94b99a",
+    "scripts/verify_signature.py": "715325c4ba38ef80d7868eb59f0f4212f4c6b51591130723969427c0fb7ce75d"
+  },
+  "timestamp": "2026-04-02T09:43:12.483852+00:00",
+  "block_hash": "4499fa8fbc83c1c409df0ba044d3bf202a14ac0f20640683d7bfefaf0435a871"
+}

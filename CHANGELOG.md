@@ -1,5 +1,13 @@
 # Changelog
 
+## v0.3.1
+
+- renamed the managed hub snapshot from `3_chemical` to `3_meterial`
+- synchronized the public repository snapshot with the expanded ENGINE_HUB meterial layer
+- refreshed README / README_EN and hub governance docs to explain the material flow more clearly
+- updated hub verification so release checks validate the `3_meterial` layout
+- refreshed umbrella integrity metadata for the renamed snapshot tree
+
 ## v0.3.0
 
 - expanded `Meterial` from a single public chemistry foundation into an umbrella repository

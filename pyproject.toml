@@ -1,7 +1,7 @@
 [project]
 name = "meterial"
-version = "0.3.0"
-description = "Meterial — umbrella chemistry/material repository with a stable chemical_reaction foundation package and a managed 3_chemical hub snapshot"
+version = "0.3.1"
+description = "Meterial — umbrella chemistry/material repository with a stable chemical_reaction foundation package and a managed 3_meterial hub snapshot"
 requires-python = ">=3.10"
 
 [build-system]

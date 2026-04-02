@@ -1,0 +1,19 @@
+{
+  "files": {
+    "ft_liquids/__init__.py": "202c44ca17e0e1933a96ce99a4ddcfc6fb1e77677b8da4f6ece1f98136314d4e",
+    "ft_liquids/constants.py": "66c427c65ddf5227e40a56ddd9b039fb9a4b63a61853e0ed4533313b208a0693",
+    "ft_liquids/contracts.py": "b6ec2630bf6c22a43bb8eb82494d3e1f816a8a8221503c6a8bf7416493ffe70b",
+    "ft_liquids/foundation.py": "76b137d48b5ff6546e652e4633122e685b93b6b9d017a36bed595e4f6852a02b",
+    "tests/conftest.py": "426e78beca88d02e4491ddcdc892ee7144cd4e232625a23d2c0ccd1f457b3981",
+    "tests/test_ft_liquids_foundation.py": "05d2de8e6487b01047aa0dcaf47716c098109769ddd8c761f1582ea8affa98cc",
+    "README.md": "8262ff8b46539195175e361e03bb4e9d2b815b481fd92b95a0a44e3b6752fb31",
+    "README_EN.md": "8b7519253600b3cc7af4c7c09e76eeb1395b8a025e48025cd7ad7972fb3fba31",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "pyproject.toml": "259d5a029c104c29006d1bd6cc8eb8368c4843b51c5b72e79e7604d86ddff5e1",
+    "CHANGELOG.md": "fcf3e8d46f7c5c285ae29c2580d2f4cc069f5489bdf2c1d710e311c159b57e79",
+    "scripts/generate_signature.py": "75a6a8a294be4356e993d281a82aa360440d57ed5b07f3e9b013b972ff02ae4b",
+    "scripts/verify_signature.py": "715325c4ba38ef80d7868eb59f0f4212f4c6b51591130723969427c0fb7ce75d"
+  },
+  "timestamp": "2026-04-02T11:07:12.744774+00:00",
+  "block_hash": "5a3edb9a68ae96c963a3031da8ec62e163e4bc63fde2a099cfb962ee60c4f2ae"
+}

@@ -1,0 +1,19 @@
+{
+  "files": {
+    "nitric_an/__init__.py": "202c44ca17e0e1933a96ce99a4ddcfc6fb1e77677b8da4f6ece1f98136314d4e",
+    "nitric_an/constants.py": "7551c1ab2571fd9d38f548af1da510464cd8f7d2ea7c029776086fc7537fa9fd",
+    "nitric_an/contracts.py": "830d76100484157c6ad6224860ed900afa46e0f749618cd79ab61d049202f993",
+    "nitric_an/foundation.py": "ba166e5bbd4429963e4c36ac7f8cc87e54e1247f1cbcbf5430a79df15eacfdc5",
+    "tests/conftest.py": "426e78beca88d02e4491ddcdc892ee7144cd4e232625a23d2c0ccd1f457b3981",
+    "tests/test_nitric_an_foundation.py": "541ab31f56003a48de407aff2da27510744be9bbb37f7d20a94b5b359ab32f0d",
+    "README.md": "d144b4eb2e5c4cab6a35f05919c4163db26ea31c2f1fb4116090c4b83b5e6267",
+    "README_EN.md": "f31bb155889ef8b7e0df368bce5a0237937f1c407b26a26ac8a9de620a2efb9c",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "pyproject.toml": "bfccea1a11bd17201c75b2fd13f6e0fa6e14f81045a88beae5e30c051cb00c3c",
+    "CHANGELOG.md": "fcf3e8d46f7c5c285ae29c2580d2f4cc069f5489bdf2c1d710e311c159b57e79",
+    "scripts/generate_signature.py": "80816d0190e4ccf72c0e8afdec82f85dab4e603f14580fc4bbf38c15391ab69a",
+    "scripts/verify_signature.py": "715325c4ba38ef80d7868eb59f0f4212f4c6b51591130723969427c0fb7ce75d"
+  },
+  "timestamp": "2026-04-02T11:13:15.902441+00:00",
+  "block_hash": "dd504f1576a62162b26ab6c749d75b2c7bfcd1f5bdfa6e5b483d5420cd39c49c"
+}

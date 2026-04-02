@@ -1,0 +1,19 @@
+{
+  "files": {
+    "nh4_phosphate/__init__.py": "202c44ca17e0e1933a96ce99a4ddcfc6fb1e77677b8da4f6ece1f98136314d4e",
+    "nh4_phosphate/constants.py": "ea5986efbcec732e4453aade24f08c8c9a5fc705b1b1fcf5ea74640d60d6ed8f",
+    "nh4_phosphate/contracts.py": "12713772351777e1a9e354f8eae51555d4d22a4f692e2460db112780ab979e36",
+    "nh4_phosphate/foundation.py": "296af4fbc2da765d89047a53e42dcddd67c67aee5ddcfd2c17dc276b3143f19b",
+    "tests/conftest.py": "426e78beca88d02e4491ddcdc892ee7144cd4e232625a23d2c0ccd1f457b3981",
+    "tests/test_nh4_phosphate_foundation.py": "01c48177a31440cf716b39181f77bce49551f6ff07e54a2cd840d5ee56182b8c",
+    "README.md": "5542533e930846dd9533bbab10c4ec35a4d7c1ff3d38a7c5f201592657f43ca6",
+    "README_EN.md": "9e1dd09ba665a24307b19a219f431d5504752c1c7039a26fc8ece34a3196c55c",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "pyproject.toml": "b2ea7b5adef98edf40686e0a13d3f66e5dc129fe098dc3ac4cbeaa8a308d2fa1",
+    "CHANGELOG.md": "fcf3e8d46f7c5c285ae29c2580d2f4cc069f5489bdf2c1d710e311c159b57e79",
+    "scripts/generate_signature.py": "14be8acbc21e667ac87512a3f10cffee01f48b1bc97799f30547e99625741485",
+    "scripts/verify_signature.py": "715325c4ba38ef80d7868eb59f0f4212f4c6b51591130723969427c0fb7ce75d"
+  },
+  "timestamp": "2026-04-02T11:18:26.357253+00:00",
+  "block_hash": "df006fb2498ad42aff0fe34a2714aff28bce8c64e477edecb26cb0c5b504bb0c"
+}

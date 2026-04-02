@@ -1,0 +1,19 @@
+{
+  "files": {
+    "rhenium/__init__.py": "202c44ca17e0e1933a96ce99a4ddcfc6fb1e77677b8da4f6ece1f98136314d4e",
+    "rhenium/constants.py": "6280c318798cb7a2308a6a5fe1401aaf07d11e3bc37d7399f213726a03942a81",
+    "rhenium/contracts.py": "65c15435916845d3f4080199dd428b5fa251570854fc3736fece456ad79e499b",
+    "rhenium/foundation.py": "4f32bfed2dd3d088e816c4d05dada4c335f8a10a480ac92c8d19fd0416f24bfc",
+    "tests/conftest.py": "426e78beca88d02e4491ddcdc892ee7144cd4e232625a23d2c0ccd1f457b3981",
+    "tests/test_rhenium_foundation.py": "cb67df6116622a2d19f01b0023096ae7912f3ace0cf12112e29fa9550858cad6",
+    "README.md": "180894bbbe858dca6123975dbb9090808ed0c3b4f110fe197467600db36b4698",
+    "README_EN.md": "265c08e345ef94154891dd3d3317b6106007507059b97a58e025b9f5c0ac2ec5",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "pyproject.toml": "3f0e7559e6d1fb6d3f0e1ec7c1c0f719e08cb78667e808717a7d0fdb71c1d753",
+    "CHANGELOG.md": "fcf3e8d46f7c5c285ae29c2580d2f4cc069f5489bdf2c1d710e311c159b57e79",
+    "scripts/generate_signature.py": "9f8e3917a50e9a2c4c2671b6d3a34891e8a72e0bd5d579faeb0117167022a5f5",
+    "scripts/verify_signature.py": "715325c4ba38ef80d7868eb59f0f4212f4c6b51591130723969427c0fb7ce75d"
+  },
+  "timestamp": "2026-04-02T10:52:58.529062+00:00",
+  "block_hash": "5d31ee5b7766f5866f441220ce8613de54d420400e3add2544fb811ff253b65e"
+}

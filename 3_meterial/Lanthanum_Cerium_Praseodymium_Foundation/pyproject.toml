@@ -1,0 +1,10 @@
+[project]
+name='lanthanum-cerium-praseodymium-foundation'
+version='0.1.0'
+description='La/Ce/Pr: light lanthanides — separation, catalysts, battery/magnet adjacency screening.'
+requires-python='>=3.10'
+dependencies=[]
+
+[build-system]
+requires=['setuptools>=68']
+build-backend='setuptools.build_meta'

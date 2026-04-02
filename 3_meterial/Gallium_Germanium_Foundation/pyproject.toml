@@ -1,0 +1,10 @@
+[project]
+name='gallium-germanium-foundation'
+version='0.1.0'
+description='Ga/Ge layer: wide-band and high-mobility device tradeoffs for power/RF/photonics.'
+requires-python='>=3.10'
+dependencies=[]
+
+[build-system]
+requires=['setuptools>=68']
+build-backend='setuptools.build_meta'

@@ -1,0 +1,19 @@
+{
+  "files": {
+    "ammonia_plant/__init__.py": "202c44ca17e0e1933a96ce99a4ddcfc6fb1e77677b8da4f6ece1f98136314d4e",
+    "ammonia_plant/constants.py": "3b2ee7fc9efe334a609996baac3e2b238aa9bcc2f4d9cbcf00460e5a1321dbe7",
+    "ammonia_plant/contracts.py": "b246c7511dc7fa78e1c22df92d11048ea6377325b44c03b5270d8d8b9a8eb23c",
+    "ammonia_plant/foundation.py": "e57e8d343ef3dd83b3540a6a10aa53289332415e1015e457ffc310fdc4432955",
+    "tests/conftest.py": "426e78beca88d02e4491ddcdc892ee7144cd4e232625a23d2c0ccd1f457b3981",
+    "tests/test_ammonia_plant_foundation.py": "9a2cbdd9ea62bd561023b464646005db7fd91b70d9c146789e6232524bcf25c7",
+    "README.md": "46342bdb0acc171ba89bbed669a7033b9cb90db3c28f68d3bb6d6b7f6e9bdc14",
+    "README_EN.md": "830aa971d3133d7a9da097e929fde05fd8d250448e9b165fdc9e6dc0c50e2ba3",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "pyproject.toml": "75f03b6af852715a94de9779a19e29a8ecfd83e1f0ebdc031d699043f7bb00d2",
+    "CHANGELOG.md": "fcf3e8d46f7c5c285ae29c2580d2f4cc069f5489bdf2c1d710e311c159b57e79",
+    "scripts/generate_signature.py": "326e27f5550361d6b58c99a331b282f04b9f6c302f1fa9c90428f36574384b5f",
+    "scripts/verify_signature.py": "715325c4ba38ef80d7868eb59f0f4212f4c6b51591130723969427c0fb7ce75d"
+  },
+  "timestamp": "2026-04-02T11:13:15.154822+00:00",
+  "block_hash": "845a3941f5d325c530c0dcc773431da3f90ffd9cffff60fdee608c9e70102025"
+}

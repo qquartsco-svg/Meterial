@@ -1,0 +1,19 @@
+{
+  "files": {
+    "beryllium/__init__.py": "202c44ca17e0e1933a96ce99a4ddcfc6fb1e77677b8da4f6ece1f98136314d4e",
+    "beryllium/constants.py": "e125a30613ab53234cb5eb64d9e312a8a9cc53cd4ea4639164d60987435341cc",
+    "beryllium/contracts.py": "a470188542e6cb004ec7b5b64b9910d4f813601b883f8b5d47b014544fa78835",
+    "beryllium/foundation.py": "8974d18fa90097cd136188dbd23cfdb7a94dbd771d0344b8542bb73072ae88be",
+    "tests/conftest.py": "426e78beca88d02e4491ddcdc892ee7144cd4e232625a23d2c0ccd1f457b3981",
+    "tests/test_beryllium_foundation.py": "0665a2d34dd1e8c11d7155b8c87dad17241c39a613a53027c258e774db2df961",
+    "README.md": "f59411c26673b3a7e3437b76b95b7a40da23eecf610a151b8c6b6159402fc1a7",
+    "README_EN.md": "bfe7ef7b0c650f56a5a5185978c28d5b818fd618ab3f665ee3ce8a27a82e97cd",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "pyproject.toml": "de7fea82d7e8921c50c82bb242eb14f9f817d1e70e2f72524d33dc073483eacd",
+    "CHANGELOG.md": "fcf3e8d46f7c5c285ae29c2580d2f4cc069f5489bdf2c1d710e311c159b57e79",
+    "scripts/generate_signature.py": "5f8662f7d002ad2548bd9bbe14fc298bfdc20e8e5a48b758c982f5736dcf7183",
+    "scripts/verify_signature.py": "715325c4ba38ef80d7868eb59f0f4212f4c6b51591130723969427c0fb7ce75d"
+  },
+  "timestamp": "2026-04-02T10:37:02.946956+00:00",
+  "block_hash": "a7fafd91099cfd012e20dc2779cf0aa15dfa01f29422d4d69c7c304f2aa2a429"
+}

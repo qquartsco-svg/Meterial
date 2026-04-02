@@ -1,0 +1,19 @@
+{
+  "files": {
+    "silicate_fertilizer/__init__.py": "202c44ca17e0e1933a96ce99a4ddcfc6fb1e77677b8da4f6ece1f98136314d4e",
+    "silicate_fertilizer/constants.py": "a25ef57c7ba13875ffed2d4651f90577cf138636ed70704bb66cdb4654f75d8b",
+    "silicate_fertilizer/contracts.py": "1f02b5bd38e6c8c6b0b8dddf1e1cc0f313bf9afb64a9393595c3bd5f127ff20b",
+    "silicate_fertilizer/foundation.py": "68a494df1da901d391b7950440683c5a2209abbe478a10e695e5cbcba27ae14f",
+    "tests/conftest.py": "426e78beca88d02e4491ddcdc892ee7144cd4e232625a23d2c0ccd1f457b3981",
+    "tests/test_silicate_fertilizer_foundation.py": "8f1ee9b1a0b3aba157beb5e2b166c825699ed6ba472c56e5f7ff20ed9c05825b",
+    "README.md": "13f77cc962d9a3ce7a01eb0b37f6e8391956da43f3b4ea91a12de89c33b8c5e6",
+    "README_EN.md": "49d8e400a178faaaa8552ac52671adc65f067a3ef4c7770d16de50854d21d946",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "pyproject.toml": "df9a77a5c23f4b3f8f5520e25a74354c8d479ffcb40094cd22d6bf99fa6c4032",
+    "CHANGELOG.md": "fcf3e8d46f7c5c285ae29c2580d2f4cc069f5489bdf2c1d710e311c159b57e79",
+    "scripts/generate_signature.py": "c165b0b963eaf2ce9c91986fc22273f7ee3443121633ed53641ecd97b28bb95a",
+    "scripts/verify_signature.py": "715325c4ba38ef80d7868eb59f0f4212f4c6b51591130723969427c0fb7ce75d"
+  },
+  "timestamp": "2026-04-02T11:26:54.185338+00:00",
+  "block_hash": "b3f3ed594a277d3610361ade71112ac615ed3027f4748d9748f29cffa10250d4"
+}
