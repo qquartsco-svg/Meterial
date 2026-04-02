@@ -1,0 +1,19 @@
+{
+  "files": {
+    "CHANGELOG.md": "f65eaf8926733975c72a80e3664dcb1a7ecbd35a3ff4052ae462e7075c6e2951",
+    "README.md": "30696948dba7808141e0802968e75bd39982150a5db26b803a6eb1edfba92f4b",
+    "README_EN.md": "5a768ad274be4ccd6f7ffd540dab7adb3f4a0f0ced030c6d67593dfdfb6da14b",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "al_ti/__init__.py": "f13488794942b98516e6ce69ae8e5c2b78c67edeb9a8a68e87ac49b9b4cd33b6",
+    "al_ti/constants.py": "a1ecd30328adcc17644b92d8ac174d44187207f26ea164535883c4d8fe889913",
+    "al_ti/contracts.py": "2b9acea744b6e88bb4bdd7a640f4bc7802fa62a65b1314325cd41d84cc22114b",
+    "al_ti/foundation.py": "33419deb35c3fd9bdbad14e6d4c3c39617b001c22de09d3bae53fb7dc2aab09f",
+    "pyproject.toml": "efa2857f81dd60e7b016804e1733efcfa4a78ad88c9074bd15374d119b733b04",
+    "scripts/generate_signature.py": "c1f3e102a1366d2e60d0eae385afd2fb67152423b5a0da74215cf0db86ca2ee2",
+    "scripts/verify_signature.py": "9080829f6f04ae4fa7944e25bcddb3aa50a9f4d113c090ca95627913f228d012",
+    "tests/conftest.py": "cd0ad29b834a636d85fa769b63b7f614a67a76a300bab71dd778338e31403ea5",
+    "tests/test_al_ti_foundation.py": "6826c0ccf1f7724939fed4c5c2592e567f71b1986a58eec846b5a035f640e140"
+  },
+  "timestamp": "2026-04-02T09:15:37.869545+00:00",
+  "block_hash": "f561b99f940290e33afd63b42d19d17894e6b75e7680cce7625f6f2ab587d282"
+}

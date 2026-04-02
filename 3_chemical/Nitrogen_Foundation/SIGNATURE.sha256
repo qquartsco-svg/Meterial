@@ -1,0 +1,27 @@
+{
+  "files": {
+    "CHANGELOG.md": "ecbc0e4e5762ca1d9ae6f56617c70b7866105c55efeee10aa9819586f5ec05a7",
+    "README.md": "a590254f8d6638729e1a6a5fa1fb72348dea129417fed353de9743b8ee63fda2",
+    "README_EN.md": "c5b36bd24c963870d9472bc8bacd21876b34a4c14dbab5c21a7ebfa32718cc81",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "nitrogen/__init__.py": "49a8c084e75195f7c7006cd895e294a53f382693b232c3f1897fe112be71063e",
+    "nitrogen/air_separation.py": "c3b73d7774bd49a01433769b3fa19123da661a246b69be1602a9d3649479e405",
+    "nitrogen/constants.py": "6e941bf7eda0a31d9bf724bb5c4362b55ddd0ee3d1de42189db8841e202f29fb",
+    "nitrogen/contracts.py": "5396c0ea7f5e6a7b64310d21c0e2fa5f1239d6d697009b29ab23e3c624f32bec",
+    "nitrogen/domain_agriculture.py": "2384d404fb77d417bfee2bf6f9207708faa0cfd5e9cffbf551c3e44d4958ca4d",
+    "nitrogen/extension_hooks.py": "914dabd39ae2868ab52b0258b0d8aa65ecaaa201cd680188ff04a4a29e84450e",
+    "nitrogen/fixation.py": "0d21f84ccfde414e13e19539e019ca8be9fce7169b655794fcd7d328ccf5d65c",
+    "nitrogen/foundation.py": "8a4e4230c5d5d1713402d8bea702301dee3f2277e8cb36c6afba9d871efbaffc",
+    "nitrogen/properties.py": "50888c18cde1e8eeb9f6c011286a37c145f3d71d5acf11a259403b6d0a98d8de",
+    "nitrogen/safety.py": "95a6a12d7c2d2f088c4c664b5eb2cffa2ec84d4acbc3e2a36716ed51c67e077e",
+    "nitrogen/screening.py": "ddd9da7c5102ade63c796c7c7c7573e0168dc05ab52eeea26918749d48540dea",
+    "nitrogen/storage.py": "c67de5052aea1b1a8d0c6570dfb1f4061ff053d2b9dd4cd9f46c2cc6e3adceab",
+    "pyproject.toml": "2e47b5e2a8925f0e68e74919b9e36e22889ab3b37acd6c467fed2d7d3ab73a3d",
+    "scripts/generate_signature.py": "0d7e2e7196c3fd063618c19c25b5b3f884bbc91ab470e72aef61f07fddaf3130",
+    "scripts/verify_signature.py": "beb5a24242e9ea5ddd7a611f4ef2365e8060f2c7d23651e1bc0de4baa2981fbb",
+    "tests/conftest.py": "f919902a08ca82f4ac6e94fa1f32486241493a0ed2baed231fe83560b58ad4df",
+    "tests/test_nitrogen_foundation.py": "615d723836d023d680e6609d61fed63b2b5bcaa4cba1a22e348a72c725965b61"
+  },
+  "timestamp": "2026-04-02T08:37:49.550111+00:00",
+  "block_hash": "e77b3b9ade66fd606e3ae8473af06221319760d0efbe86a8e52900661379ef87"
+}

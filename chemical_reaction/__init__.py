@@ -1,11 +1,11 @@
-"""Meterial v0.2.1
+"""Meterial v0.3.0
 
 E5 Chemistry layer for the 00_BRAIN Epistemic Stack.
 Defines species, bonds, thermodynamics, kinetics, equilibrium,
 electrochemistry, and ATHENA screening for chemical claims.
 """
 
-__version__ = "0.2.1"
+__version__ = "0.3.0"
 
 from .contracts import (
     BondInfo,

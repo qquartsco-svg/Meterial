@@ -1,0 +1,26 @@
+{
+  "files": {
+    "CHANGELOG.md": "5c63fcbff5dca116970d6eb246dafe96d05226c35b6a4efb9972ebf761ecc6ec",
+    "README.md": "cabeb29cdcec400b012890f020f440d672318a05b5ee2e931693d836507dee41",
+    "README_EN.md": "02b382571ad3c4d15562f85400d9177b5fabdcd8f6699bb8d98dfdfcb2055cb0",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "oxygen/__init__.py": "0e172d17f61c7c87ebd2c0675eccbf50af8886c374ac5cad15a33736ad2442a6",
+    "oxygen/constants.py": "416fee8f217deaf17eb68a0d863a4766a28256d958c43fb503c2f64be5aa2851",
+    "oxygen/contracts.py": "486acc450a35e8d6dfeb137c1414879c9cf797a890d12cb7db5255aae6cf739d",
+    "oxygen/domain_space.py": "bbcc422bd791190a4cdd501e7ed05a34df292c09bb44517cf855be3fc0560443",
+    "oxygen/extension_hooks.py": "eea27eac7fa55ee31db49336912143aa1b81e0258d8d79a19c29786d4394fe6e",
+    "oxygen/foundation.py": "35943ac028a94da52b5cda37c3d05f07f9f151ae784898cc12e733a887fbcd57",
+    "oxygen/production.py": "6e44b3c087aac060f17292707703381f4fa7792ea13ba3bcaef46bf877da311b",
+    "oxygen/properties.py": "7077165ca1c8a2c501406d643ba09fe84220fc4ae63dd81fbef5cf67baf02a34",
+    "oxygen/safety.py": "bf0b924eed5d04a0033639608bc8679988970f430f209d015dd93f90525af2a1",
+    "oxygen/screening.py": "2dfa0aa67e90bed3df6ae40756001c1d07ff3ffd8eed19e8bae3ed480531020f",
+    "oxygen/storage.py": "812c0b4ace0da27c2597bc764ec594119940349896697721a0e147deb70bc397",
+    "pyproject.toml": "0b2562753a9ce1f92af5b63192556d0e40cc4cf5cd484aba8587447dd81d4c52",
+    "scripts/generate_signature.py": "4f6f9ac81eaaefc1fd6410fa55a200b54d5d44c4ef73d6f7713be5e013938c57",
+    "scripts/verify_signature.py": "beb5a24242e9ea5ddd7a611f4ef2365e8060f2c7d23651e1bc0de4baa2981fbb",
+    "tests/conftest.py": "f919902a08ca82f4ac6e94fa1f32486241493a0ed2baed231fe83560b58ad4df",
+    "tests/test_oxygen_foundation.py": "dc4fac394ff307f9454a38eff32271ed84d572ddc7b9da2456cb1dbfc1747099"
+  },
+  "timestamp": "2026-04-02T08:37:49.805138+00:00",
+  "block_hash": "3e68e73aa34b83c7a4f5963de242eea191a81a514c3ffa5addd24504b3362e78"
+}

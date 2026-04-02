@@ -1,0 +1,29 @@
+{
+  "files": {
+    "CHANGELOG.md": "6140609e8d2aad717f527fa7492d6d818d9023ca8f4d4ea318d3f1219a77d2d9",
+    "README.md": "301f1eac900ab815b24315f7fd043e304ea3dccb5b7f93341fa12c511c62b20e",
+    "README_EN.md": "715293371274edfecdd491086161e7ed768cc2306ccd9b4dbef89f55ace53cac",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "hydrogen/__init__.py": "fbab3e0244892050b9ba0b1cef2fadd53fd2c973100ffb99f54c8b3d72a16c7f",
+    "hydrogen/constants.py": "0176eec567b4a7b84027113352e66beaaddb67a592a3bd217cb76570c21645c9",
+    "hydrogen/contracts.py": "2264020e7fbe8e35b41053167ec1d53d3d128b241ab399e331e9bbf0985fb1bf",
+    "hydrogen/domain_grid.py": "4c97e7e7585a579bfa4ea9478ec5e2df57afd820c46eceb7252e549951c12977",
+    "hydrogen/domain_space.py": "b4d59fb0c7e6474d4d6a26310f0d3296181340a305608ecb5e850cec7080752d",
+    "hydrogen/domain_transport.py": "fbe38f1e477334a6bc245984bb9a695a9a36263e6495555d681342da40d3e979",
+    "hydrogen/extension_hooks.py": "40eb84714fc711cac2432ef2896888d46362bf86e8e26ac630add9b9295c4bef",
+    "hydrogen/foundation.py": "dc2582f4c25b05baa5b92957dafcdcac949f9676ab404c4f8700d744b51599bf",
+    "hydrogen/fuel_cell.py": "3a76cfbbcee56bcd5b308881dc6bcc30020eac240c518274546939913abf18d3",
+    "hydrogen/production.py": "94365f68559f8a1698eb3e0a258dab37ad612a9d8be46768ac867f9d03d3e56c",
+    "hydrogen/properties.py": "e4dbddaa85a9cbbdcd9cca7e7afccaf9dcd8af7bb5fc536dc1d8d26d58db64f1",
+    "hydrogen/safety.py": "daf9b29d5375e3ee66649c52f8c91c56a8d3dd2298bfc7a328b4bf9effb362af",
+    "hydrogen/screening.py": "f0ec717d2f2325fe7f569ade4bdd0b944905fe07712bf679af5bbe2d055d513c",
+    "hydrogen/storage.py": "df315046d3675fee0b0dab39ed98de557b9b47e2f7d83b92c599976a5786bb65",
+    "pyproject.toml": "c316046529fcbb825bde33613c41631b6b46b6a62942fe0432ed40127eacc609",
+    "scripts/generate_signature.py": "1bdee59b223050cebf944ca6e5ac6a6e7f92db33257c9f7e8c6f3a82d2320a6a",
+    "scripts/verify_signature.py": "92bfeff475c8ef13f4004201ef252606756fe8c05abb8f7f84cbbf0d6ae274b8",
+    "tests/conftest.py": "2bdeb002ca375f221fb31e5768be34b5b492c218202a953705f344f1c9a45b58",
+    "tests/test_hydrogen_foundation.py": "00d61332f0dc74cd755651b48af02de954401d87cbee100171d63911eecdbf12"
+  },
+  "timestamp": "2026-04-02T02:22:48.668082+00:00",
+  "block_hash": "463dcad784091f8a293e9838efed87eddaf117423259bef7083cfd638748bb9e"
+}

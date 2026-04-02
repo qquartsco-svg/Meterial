@@ -1,0 +1,5 @@
+from __future__ import annotations
+CU_RESISTIVITY_OHM_M=1.68e-8
+ZN_RESISTIVITY_OHM_M=5.9e-8
+CU_DENSITY_G_CM3=8.96
+ZN_DENSITY_G_CM3=7.14

@@ -18,6 +18,7 @@ def main() -> int:
     py = sys.executable
     run(py, "-m", "pytest", "tests", "-q")
     run(py, "scripts/verify_package_identity.py")
+    run(py, "scripts/verify_hub_snapshot.py")
     run(py, "scripts/verify_signature.py")
     run(py, "scripts/cleanup_generated.py")
     print("\n[OK] release_check OK")

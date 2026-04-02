@@ -1,0 +1,26 @@
+{
+  "material": {
+    "name": "CFRP-A",
+    "density_kg_m3": 1550.0,
+    "tensile_strength_mpa": 1800.0,
+    "youngs_modulus_gpa": 140.0,
+    "thermal_conductivity_w_mk": 8.5,
+    "electrical_conductivity_s_m": 15000.0,
+    "fatigue_strength_mpa": 900.0,
+    "recycle_content_ratio": 0.2
+  },
+  "process": {
+    "cure_temp_c": 180.0,
+    "cure_pressure_bar": 6.0,
+    "cycle_time_min": 95.0,
+    "scrap_rate": 0.08,
+    "energy_kwh_per_kg": 9.0
+  },
+  "spec": {
+    "target_specific_strength_kn_m_kg": 1.0,
+    "target_specific_stiffness_mn_m_kg": 70.0,
+    "max_mass_kg": 120.0,
+    "min_fatigue_margin": 0.45,
+    "safety_class": "aerospace"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://00-brain.local/schemas/cooking.process.tick.payload.schema.json",
+  "title": "Cooking process tick payload (L4 / surface.run_process_tick)",
+  "description": "For embedded surface.run_process_tick omit aof_min and cooking_observation_overlay (L4 engine only).",
+  "type": "object",
+  "required": ["recipe_flow", "dt_s"],
+  "additionalProperties": true,
+  "properties": {
+    "recipe_flow": {
+      "type": "object",
+      "description": "Recipe graph — see Cooking_Process_Foundation recipe_serde / README"
+    },
+    "dt_s": { "type": "number", "exclusiveMinimum": 0 },
+    "kitchen_state": { "type": ["object", "null"] },
+    "observation": { "type": "object" },
+    "arbiter": {
+      "type": "object",
+      "properties": {
+        "pause_mission": { "type": "boolean" },
+        "heat_cap_0_1": { "type": "number", "minimum": 0, "maximum": 1 },
+        "reasons": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "arbiter_config": { "type": "object" },
+    "sik_stimuli": { "type": "array" },
+    "merge_sik_tags": { "type": "boolean" }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "files": {
+    "CHANGELOG.md": "b438fe5971f0b2b8921edd02a774ab8f055c43631b498404a6a462254dbde102",
+    "README.md": "6e79b45501aed33319d899c89c29a5b8ccc8e70e96dbe358bce3760a8686e9d8",
+    "README_EN.md": "e51f31f8f0540940ab006b4efbe774b5b78f8534c55ded4773281064c6966d55",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "pyproject.toml": "a77d4b3fdea552048d81a865c1dff437c5036fbdc1f02cee1a311795fd5b6e5d",
+    "scripts/generate_signature.py": "620be3eb05363274ed478eeadc73cf998011d857981d729b09616205e04608ed",
+    "scripts/verify_signature.py": "248a241f6c2e05d4532b51f10bfe3fd21a108c72a3edc5c757e36e7924e47cce",
+    "silicon/__init__.py": "c9f4752f40470af7036241fbad1b5708663174056a5ca21b8996e74af3264b15",
+    "silicon/constants.py": "980fc870294d5b74df793f19dc35cf3b33a9b6e36166b289b17298f039752065",
+    "silicon/contracts.py": "97887c4b5ac728d77b8962f22eaad02d2c4072ac07222924a82a924260db221f",
+    "silicon/device.py": "56ccde5fc7b96d98f7d1abbfc4113ea8f4b252ef279360b20ca487a9326ab151",
+    "silicon/extension_hooks.py": "c1c7020bc781a482a66757b5e6d38c80df3a00c3025a95364d369eb3dd4184d0",
+    "silicon/foundation.py": "594ef5c615a62bce7049fd36b0c41b9d989f6d1e52944d7f9234bf8fd9622ff7",
+    "silicon/properties.py": "d055608cafc15248f217325c3f0dbc55a233c9635a5e7b9abb30895302b799fc",
+    "silicon/refining.py": "10369d5bc207528bb56540f39db0bc8729b008ef1b1bc131803f38cdf449c3fe",
+    "silicon/screening.py": "a2d7bc39542a036a923469617c3212e999ba932d241fda42186ea717606aa4cc",
+    "tests/conftest.py": "f919902a08ca82f4ac6e94fa1f32486241493a0ed2baed231fe83560b58ad4df",
+    "tests/test_silicon_foundation.py": "fbb192773bf46053344bbe4d05fe083eb8e50ebe7edb188265562959a1e2fcaa"
+  },
+  "timestamp": "2026-04-02T08:46:10.860687+00:00",
+  "block_hash": "c2727183d69900f6c762e26f519dc5ecac58099838ccacb49a7eff7401264d84"
+}

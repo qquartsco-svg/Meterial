@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "element-capture-foundation"
+version = "0.2.0"
+description = "Domain-neutral engineering kernel for elemental and gas capture feasibility."
+requires-python = ">=3.10"
+authors = [
+  { name = "GNJz / qquartsco-svg" }
+]
+readme = "README.md"
+
+[tool.setuptools]
+packages = ["element_capture"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]

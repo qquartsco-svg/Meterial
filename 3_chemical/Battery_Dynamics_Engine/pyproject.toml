@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name            = "battery-dynamics"
+version         = "0.4.0"
+description     = "배터리 ECM 물리·시뮬레이션·검증 엔진 — stdlib only, edge-AI ready"
+requires-python = ">=3.9"
+dependencies    = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["battery_dynamics*", "battery_pack*"]

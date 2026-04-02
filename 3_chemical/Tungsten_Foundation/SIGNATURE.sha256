@@ -1,0 +1,19 @@
+{
+  "files": {
+    "tungsten/__init__.py": "202c44ca17e0e1933a96ce99a4ddcfc6fb1e77677b8da4f6ece1f98136314d4e",
+    "tungsten/constants.py": "2dee83f75e4fb003570efea162d28b551ed84d7abc6af04a955a9ad598f2b5f6",
+    "tungsten/contracts.py": "82c085dd33a2a1f6767c1d0890c7b678c93842c78a23ea6bfe8e203af55e2b76",
+    "tungsten/foundation.py": "b16992d7b6ffff53cff40582e5760c5b4e76066c18695c7d39537bcf8bca3997",
+    "tests/conftest.py": "426e78beca88d02e4491ddcdc892ee7144cd4e232625a23d2c0ccd1f457b3981",
+    "tests/test_tungsten_foundation.py": "196df8eecd331c227101df13cc7a884adf509e815fd1a8312a4351324be1b5e0",
+    "README.md": "01ba4e872c83f31da08501e9d6e43ae71dbff23f79e8ec6a56eae8b71f6f7d26",
+    "README_EN.md": "821d4c715bf563a7597433f35730c7e5f82829e56127f5fd0c15c1454ebe8de0",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "pyproject.toml": "07aee37c3cb4fc1f45e22427d36beb20a0b20cd03b67a887bcad850b285386dc",
+    "CHANGELOG.md": "fcf3e8d46f7c5c285ae29c2580d2f4cc069f5489bdf2c1d710e311c159b57e79",
+    "scripts/generate_signature.py": "53a0454c4e124b651db412fd76078ad390c6db6ea096ed128ef365433d1703ee",
+    "scripts/verify_signature.py": "ba8964690f15d11e85f16b9a0c9aa6c8217fe900e3593984489e709f7748a631"
+  },
+  "timestamp": "2026-04-02T09:32:42.687800+00:00",
+  "block_hash": "6573a4f79a4f26c553f6dfcd5b15b7d25a12eb7fb8ae9f4a8986368dc38f8084"
+}

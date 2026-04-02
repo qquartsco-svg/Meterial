@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.3.0
+
+- expanded `Meterial` from a single public chemistry foundation into an umbrella repository
+- bundled the managed `3_chemical/` hub snapshot inside the public repository
+- rewrote the root README / README_EN to explain the umbrella structure and current chemistry layers
+- added `verify_hub_snapshot.py` so release checks now validate the chemistry hub layout
+- broadened the SHA-256 manifest to cover the umbrella repository contents, including `3_chemical`
+- updated cleanup logic to remove cache artifacts recursively across the umbrella tree
+
 ## v0.2.0
 
 - expanded public README / README_EN for standalone readers

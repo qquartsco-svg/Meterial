@@ -1,0 +1,19 @@
+{
+  "files": {
+    "CHANGELOG.md": "fcf3e8d46f7c5c285ae29c2580d2f4cc069f5489bdf2c1d710e311c159b57e79",
+    "README.md": "0305353f4c2e5708f45600677fcaca9af2755d6082099953015c8739c209cdae",
+    "README_EN.md": "db637008eeb684b3e1389a1316706130281bcd9a23483a68b3e81ae24003cde3",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "fluorine/__init__.py": "202c44ca17e0e1933a96ce99a4ddcfc6fb1e77677b8da4f6ece1f98136314d4e",
+    "fluorine/constants.py": "0e1d869748016667d167a4560e83f7d81bb803ed4b5081a83131bcd84059b1ae",
+    "fluorine/contracts.py": "56e93b96c503b222f57666071de9eefde4743b561dddd229308d8153ff7a5d48",
+    "fluorine/foundation.py": "6e690e3e7cd0cfde6fe01064a59c433e436f1fd897a8c29529f6d65962249bcc",
+    "pyproject.toml": "4052b645e4809156b9b041baf3ad0562fb30ca63da77e1db41664d239881d2e7",
+    "scripts/generate_signature.py": "72d6b90f2c089ddc0eb484f0cfec3d04f564b8b1468d5022ea139d61eb6cd95b",
+    "scripts/verify_signature.py": "892add927765bd337422f6d144a89639723e25559c924effc4ebf949ac5289e8",
+    "tests/conftest.py": "426e78beca88d02e4491ddcdc892ee7144cd4e232625a23d2c0ccd1f457b3981",
+    "tests/test_fluorine_foundation.py": "17c1372e8661d2e32776ed23650d4f38d48d5130e259758e09b5a4f86ccbdb22"
+  },
+  "timestamp": "2026-04-02T09:29:31.890916+00:00",
+  "block_hash": "e2de0409d4918f23828d5a284c67a4fd0e19ff406479ce9080b9f825514e6f8a"
+}

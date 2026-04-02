@@ -1,0 +1,19 @@
+{
+  "files": {
+    "vanadium/__init__.py": "202c44ca17e0e1933a96ce99a4ddcfc6fb1e77677b8da4f6ece1f98136314d4e",
+    "vanadium/constants.py": "ff35b6d0e3dab017622687761d215a8f9723fbac47e3a27d797c5334288435f9",
+    "vanadium/contracts.py": "fd39a75786cb2b2d01399ebab5fdbcb98b5da50953c7881ebec341b8c41c93c5",
+    "vanadium/foundation.py": "0f4566dfc524bd3102a27b9cddb2155e627fe24f98fcf69ea33de86a56476ebe",
+    "tests/conftest.py": "426e78beca88d02e4491ddcdc892ee7144cd4e232625a23d2c0ccd1f457b3981",
+    "tests/test_vanadium_foundation.py": "7433f62b128b852d01420f108854fd1bda81b4eda6f3a0cc912dbc420c713148",
+    "README.md": "82827faa128495ecc8b578a31ce281c3010744e7a431516ee81ee564e6cbe9f3",
+    "README_EN.md": "884aa110e74efbc6139ae41d57232f56b725b888f4e1997813eaf1d4f93d0668",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "pyproject.toml": "273b63cab3cdaf7ac4247ef483c95427d39a3881cddeeb40645c68fc59c212ef",
+    "CHANGELOG.md": "fcf3e8d46f7c5c285ae29c2580d2f4cc069f5489bdf2c1d710e311c159b57e79",
+    "scripts/generate_signature.py": "066fe529f5e730bce391e2440469ccfee8e6c54bef845eab592ae6a59c44ab03",
+    "scripts/verify_signature.py": "ba8964690f15d11e85f16b9a0c9aa6c8217fe900e3593984489e709f7748a631"
+  },
+  "timestamp": "2026-04-02T09:32:42.208694+00:00",
+  "block_hash": "ffaa0eecf5392ecd23f9cf38dcb394b4a03d27c9b3ccf8f3ca3be6ffe847a291"
+}

@@ -1,0 +1,19 @@
+{
+  "files": {
+    "CHANGELOG.md": "abe83fdfb7e9c30a5111581f7e2324dc480105a2dbbd5c58a76d5cddc80cb09f",
+    "README.md": "aed6c92b52014b8afcfdeff602f917794b90bd7e68c1ce7b176605486f5c2a0d",
+    "README_EN.md": "312d6da9fe85eb8fe1d1e58e1867ce067c754a47a7b9b931aba3cc1dd1047886",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "iron/__init__.py": "f13488794942b98516e6ce69ae8e5c2b78c67edeb9a8a68e87ac49b9b4cd33b6",
+    "iron/constants.py": "a4a9532bad97fa7de0a60f1ef99a44590545995db55ebb1f210a7c84ecfb5634",
+    "iron/contracts.py": "aee4a091e19da8f9bdc73e8be9927af161a67c64c44601b99c3b12258ff90205",
+    "iron/foundation.py": "3fbefdf2e8074b278094c3b07319c14dd14ccd82d30b884691ab3d96e9fad447",
+    "pyproject.toml": "45158b9ef142dd8d183f72cca4355b0a3542eaa6d2f4cbf9cb55b7d89fabd13c",
+    "scripts/generate_signature.py": "8f5781e3c9352875a75111fdd20da5d0516455bea489a52ccb082e007a559db1",
+    "scripts/verify_signature.py": "9080829f6f04ae4fa7944e25bcddb3aa50a9f4d113c090ca95627913f228d012",
+    "tests/conftest.py": "f919902a08ca82f4ac6e94fa1f32486241493a0ed2baed231fe83560b58ad4df",
+    "tests/test_iron_foundation.py": "65a81cf939bce9d9e94c105b6fb31483b502622d2275f7cbc51e6b1a4c9d4293"
+  },
+  "timestamp": "2026-04-02T09:07:45.944739+00:00",
+  "block_hash": "0df505e54f891eb7648a611ef17b5a30b542ec228d41502d73e121e5808ada8e"
+}

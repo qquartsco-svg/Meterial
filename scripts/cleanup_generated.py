@@ -6,22 +6,17 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent.parent
-TARGETS = [
-    ROOT / ".pytest_cache",
-    ROOT / "tests" / "__pycache__",
-    ROOT / "chemical_reaction" / "__pycache__",
-    ROOT / "scripts" / "__pycache__",
-]
 
 
 def main() -> int:
     cleaned = 0
-    for target in TARGETS:
-        if target.exists():
+    for target in ROOT.rglob("*"):
+        if target.name in {"__pycache__", ".pytest_cache"} and target.exists():
             if target.is_dir():
                 shutil.rmtree(target)
-            else:
-                target.unlink()
+                cleaned += 1
+        elif target.name == ".DS_Store" and target.exists():
+            target.unlink()
             cleaned += 1
     print(f"cleaned={cleaned}")
     return 0

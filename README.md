@@ -1,112 +1,181 @@
-# Meterial v0.2.1
+# Meterial v0.3.0
 
 > **한국어 정본.** English: [README_EN.md](README_EN.md)
 
-화학 반응은 “정답 하나로 닫히는 사건”이라기보다,  
-종이 어떻게 바뀌고, 에너지가 어떻게 드나들고, 속도가 어떻게 달라지고, 평형이 어디쯤 형성되는지를 **동역학 흐름으로 읽어야 하는 문제**에 가깝다.
+`Meterial` 은 단일 화학 반응 패키지만을 뜻하지 않는다.  
+이 저장소는 지금까지 만들어진 화학 관련 foundation, element, applied engine 들을 **한 번에 관리하기 위한 umbrella chemistry repository** 다.
 
-`Meterial` 은 그 흐름을 관찰하고 구조화하는 **E5 Chemistry foundation layer** 다.  
-이 엔진은 “화학 반응이 무엇인지 확정한다”기보다, 반응을 읽기 위한 최소 공통 문법과 screening 환경을 제공한다.
+즉 이 레포는 두 층을 함께 가진다.
+
+1. 루트 Python 패키지 [`chemical_reaction`](chemical_reaction)
+   - 안정적인 E5 chemistry root foundation
+   - species, thermodynamics, kinetics, equilibrium, electrochemistry, screening 제공
+2. 허브 스냅샷 [`3_chemical/`](3_chemical)
+   - 원소 foundation과 응용 chemistry 엔진을 묶어 보는 chemistry layer tree
+   - 현재 만들어진 것들을 기준으로 계속 확장되는 관리 허브
 
 > 공개 저장소 이름은 `Meterial` 이다.  
-> 내부 Python 패키지 import 는 호환성을 위해 현재도 `chemical_reaction` 을 사용한다.
+> 내부 Python import 는 호환성을 위해 여전히 `chemical_reaction` 을 사용한다.
 
-## What It Is
+---
 
-이 엔진은 다음을 위한 기초 레이어다.
+## 이 레포는 무엇인가
 
-- 화학 종과 반응식을 계약으로 표현
-- 질량/전하 보존 확인
-- 열역학적으로 유리한지 추정
-- 동역학적으로 빠른지 느린지 추정
-- 평형이 어느 쪽에 치우치는지 관찰
-- 전기화학 셀 전위와 전자 이동을 계산
-- 과장된 화학 주장을 ATHENA 4단계로 screening
+이 저장소는 화학을 “정답 하나로 닫힌 학문”으로 다루기보다,
 
-즉 이 엔진은 **chemical observer-ready foundation** 이다.
+- 어떤 species 가 존재하는가
+- 어떤 반응이 가능한가
+- 에너지가 어느 방향으로 흐르는가
+- 속도와 장벽이 어떻게 작용하는가
+- 평형이 어디쯤 형성되는가
+- 전기화학 맥락에서 무엇이 바뀌는가
+- 원소와 재료, 공정이 어떻게 이어지는가
 
-## What It Is Not
+를 **보수적으로 관찰하고 연결하는 환경**에 가깝다.
 
-- 분자 동역학(MD) 시뮬레이터가 아니다
-- 양자 화학 해석기나 전자구조 계산기가 아니다
-- 상업용 공정 설계 소프트웨어가 아니다
-- NIST 급 정밀 데이터베이스가 아니다
-- 실험 결과를 대신 확정해 주는 엔진이 아니다
+즉 `Meterial` 은 “화학을 확정해 주는 엔진”이 아니라,  
+**화학 레이어를 관리하고 확장하기 위한 공통 문법 + 허브 저장소**다.
 
-현재 구현은 주로 **tree-level / order-of-magnitude** 수준의 구조를 다룬다.
+---
 
-## 왜 중요한가
+## 이 레포가 지금 하는 일
 
-많은 공학 엔진은 화학을 이미 “파라미터”로 소비한다.
+현재 `Meterial` 은 다음 역할을 동시에 가진다.
 
-- 배터리: OCV, SOC, 열화, 전극 반응
-- 수소: 전기분해, 저장, 연료전지
-- 원소 포집: 전기화학 추출, 분리, 저장
-- 탄소 복합재: 경화, 열예산, 수지 반응
-- 요리 공정: Maillard, 열전달, 수분 활성도
+### 1. Chemical root
 
-그런데 그 파라미터가 **어디서 오는지**를 설명하는 공통 화학 코어가 없으면, 위 엔진들은 서로 다른 언어로 드리프트하기 쉽다.
+루트 패키지 [`chemical_reaction`](chemical_reaction) 는 다음을 담당한다.
 
-이 엔진은 그 빈칸을 메우는 역할을 한다.
+- 화학 종 / 반응식 계약
+- 질량 보존 / 전하 보존 확인
+- `ΔG = ΔH - TΔS` 기반 열역학 방향성
+- `k = A exp(-Ea/RT)` 기반 동역학 접근성
+- `K_eq = exp(-ΔG°/RT)` 기반 평형 편향
+- Nernst / Faraday / Butler-Volmer 기반 전기화학 맥락
+- ATHENA 방식의 claim screening
 
-## 인식론적 위치
+이 패키지는 **E5 Chemistry root foundation** 으로 유지된다.
 
-[EPISTEMIC_LAYER_MAP.md](../../EPISTEMIC_LAYER_MAP.md) 기준으로 보면:
+### 2. Chemistry hub snapshot
+
+[`3_chemical/`](3_chemical) 는 현재 화학 레이어를 이렇게 묶는다.
+
+- chemical root
+  - `Chemical_Reaction_Foundation`
+- element foundations
+  - `Hydrogen_Foundation`
+  - `Helium_Foundation`
+  - `Lithium_Foundation`
+  - `Oxygen_Foundation`
+  - `Nitrogen_Foundation`
+  - `Phosphorus_Foundation`
+  - `Silicon_Foundation`
+  - 그리고 계속 추가되는 원소/재료 foundation
+- applied chemistry engines
+  - `Element_Capture_Foundation`
+  - `Battery_Dynamics_Engine`
+  - `Carbon_Composite_Stack`
+  - `Cooking_Process_Foundation`
+
+이 허브는 “완성된 주기율표”가 아니라,  
+**현재 만들어진 chemistry layer 를 계속 쌓아 가는 관리용 스냅샷**이다.
+
+---
+
+## 어떻게 읽어야 하는가
+
+이 레포는 아래 순서로 읽는 것이 가장 자연스럽다.
+
+1. [`chemical_reaction/`](chemical_reaction)
+   - 화학 반응을 읽는 공통 문법
+2. [`3_chemical/README.md`](3_chemical/README.md)
+   - 전체 chemistry layer 허브 구조
+3. [`3_chemical/ELEMENT_REGISTRY.md`](3_chemical/ELEMENT_REGISTRY.md)
+   - 어떤 원소 foundation 이 이미 있고 무엇이 planned 인지
+4. 각 element / applied engine README
+   - 특정 원소나 공정, 재료, 전기화학 응용의 맥락
+
+즉 루트 패키지는 **core grammar**,  
+`3_chemical` 은 **managed layer map** 으로 읽으면 된다.
+
+---
+
+## 현재 포함된 chemistry hub 흐름
+
+현재 흐름은 대략 이렇게 읽을 수 있다.
 
 ```text
-E4 Engineering
-  -> 배터리, 수소, 포집, 재료, 공정
-E5 Chemistry
-  -> Meterial
-E6 Biology
-  -> ATP, 혈액, 감각, 기억, 인지 토큰
+chemical_reaction
+  -> 3_chemical/Chemical_Reaction_Foundation
+  -> element foundations
+     -> Hydrogen / Helium / Lithium / Nitrogen / Oxygen / ...
+  -> applied chemistry engines
+     -> Element_Capture / Battery / Carbon_Composite / Cooking
 ```
 
-즉 E4 공학 엔진이 소비하는 많은 화학 파라미터의 뿌리를 E5에서 정리한다.
+이 흐름의 목적은 “무엇이 참인지 단번에 선언”하는 것이 아니라,
 
-## 화학 반응을 어떻게 읽는가
+- 화학 root 가 어디인가
+- 어떤 원소 foundation 이 어떤 응용과 연결되는가
+- 어느 지점에서 흐름이 끊기거나 과장되는가
 
-이 엔진이 채택하는 작업 정의:
+를 지속적으로 점검하는 데 있다.
 
-> 화학 반응은 원자 간 결합 재배열과 전자 이동을 통해 물질과 에너지가 변환되는 과정으로 **읽을 수 있다**.
+---
 
-이 정의는 고정 결론이 아니라, 관찰을 정리하기 위한 출발점이다.
+## 왜 umbrella repository 가 필요한가
 
-핵심 질문은 다음 다섯 가지다.
+화학 관련 엔진이 늘어나기 시작하면, 단일 패키지 README 만으로는 전체 구조를 통제하기 어렵다.
 
-1. 무엇이 반응하는가
-2. 열역학적으로 가능한가
-3. 얼마나 빠른가
-4. 어디서 멈추는가
-5. 전자가 오가면 무엇이 달라지는가
+예를 들면:
 
-## 레이어 구조
+- 수소는 생산/저장/연료전지/안전과 연결된다
+- 산소는 ASU, LOX, 전기분해와 연결된다
+- 리튬은 배터리와 직접 이어진다
+- 인과 질소는 생물/비료/ATP 루프와 이어진다
+- 탄소 복합재는 재료 공정과 이어진다
+- element capture 는 자원 회수와 life-support chemistry 로 이어진다
 
-| 레이어 | 모듈 | 질문 |
-|---|---|---|
-| L0 | `contracts.py`, `constants.py` | 무엇을 어떻게 표현하는가 |
-| L1 | `species_and_bonds.py` | 어떤 species와 결합이 있는가 |
-| L2 | `thermodynamics.py` | 열역학적으로 유리한가 |
-| L3 | `kinetics.py` | 반응 속도는 어느 정도인가 |
-| L4 | `equilibrium.py` | 평형은 어느 방향인가 |
-| L5 | `electrochemistry.py` | 전자 이동이 들어가면 어떻게 바뀌는가 |
-| L6 | `screening.py` | 주장이 과장되었는가 |
-| L7 | `extension_hooks.py` | 형제 엔진과 어떻게 연결되는가 |
+그래서 `Meterial` 은 이제 **chemical root package + chemistry hub snapshot** 을 함께 관리한다.
 
-## 핵심 수식
+---
+
+## What It Does Not Do
+
+이 저장소는 현재 다음을 목표로 하지 않는다.
+
+- 화학의 최종 정답을 선언하는 것
+- NIST 급 정밀 데이터베이스를 대체하는 것
+- 양자화학 / 전자구조 / MD 를 직접 수행하는 것
+- 모든 원소를 이미 완성된 상태로 제공하는 것
+- 모든 element foundation 이 동일한 성숙도라고 주장하는 것
+
+현재는 **이미 만들어진 것들을 중심으로 chemistry layer 를 정리하고 확장하는 단계**다.
+
+---
+
+## 루트 패키지 핵심 수식
+
+루트 `chemical_reaction` 패키지는 다음 수식을 기초 뼈대로 삼는다.
 
 | 이름 | 수식 | 직관 |
 |---|---|---|
-| Gibbs 자유 에너지 | `ΔG = ΔH - TΔS` | 자발성의 방향 |
-| Arrhenius 속도 상수 | `k = A exp(-Ea/RT)` | 온도와 장벽이 속도에 미치는 영향 |
-| 1차 반감기 | `t1/2 = ln 2 / k` | 절반이 반응하는 데 걸리는 시간 |
+| Gibbs 자유 에너지 | `ΔG = ΔH - TΔS` | 반응 방향성 |
+| Arrhenius 속도 상수 | `k = A exp(-Ea/RT)` | 온도와 장벽이 속도를 바꿈 |
 | 속도 법칙 | `r = k [A]^a [B]^b` | 농도와 속도의 관계 |
 | 평형 상수 | `K_eq = exp(-ΔG°/RT)` | 평형 위치 |
-| Nernst | `E = E° - (RT/nF) ln Q` | 반응지수와 전위의 관계 |
-| Faraday | `m = ItM / nF` | 전하로부터 생성 질량 추정 |
+| Nernst | `E = E° - (RT/nF) ln Q` | 전위와 반응지수의 관계 |
+| Faraday | `m = ItM / nF` | 전하와 생성 질량의 관계 |
 | Butler-Volmer | `j = j0 [exp(αaFη/RT) - exp(-αcFη/RT)]` | 과전압과 전류 밀도 관계 |
 
+이 수식들은 “완전한 해답”이 아니라,  
+**화학 흐름을 구조적으로 읽는 최소 공통 언어**로 쓰인다.
+
+---
+
 ## Quick Start
+
+### 루트 패키지 사용
 
 ```python
 from chemical_reaction import (
@@ -137,127 +206,90 @@ print(report.kinetic_accessibility)
 print(report.omega)
 ```
 
-예상 해석:
+### 허브 탐색 시작
 
-- 질량/전하 보존은 맞는가
-- `ΔG` 기준으로 유리한 방향인가
-- 활성화 장벽 때문에 느릴 수 있는가
-- 평형은 생성물 쪽으로 치우치는가
+먼저 이 문서를 보고:
 
-## 형제 엔진과의 연결
+- [`3_chemical/README.md`](3_chemical/README.md)
+- [`3_chemical/ELEMENT_REGISTRY.md`](3_chemical/ELEMENT_REGISTRY.md)
+- [`3_chemical/CHEMICAL_GOVERNANCE.md`](3_chemical/CHEMICAL_GOVERNANCE.md)
 
-| 형제 엔진 | 연결 방식 |
-|---|---|
-| `Battery_Dynamics_Engine` | Nernst, Arrhenius, Butler-Volmer |
-| `Element_Capture_Foundation` | 전기화학 추출, 분리 전위 |
-| `Hydrogen_Foundation` | 전기분해, 연료전지, 저장 |
-| `Carbon_Composite_Stack` | 경화 동역학, 열예산 |
-| `Cooking_Process_Foundation` | Maillard, 열전달, 수분 활성도 |
-| `TerraCore_Stack` | 전기분해, 가스 순환, life-support chemistry |
-| `VectorSpace_102` | 향후 `from_chemical_assessment` 허브 어댑터 |
+그다음 관심 있는 원소 foundation 으로 내려가면 된다.
 
-## ATHENA Screening
+---
 
-이 엔진은 화학 claim을 다음 네 단계로 읽는다.
+## 현재 테스트와 검증
 
-- `Positive`
-  - 알려진 화학과 잘 정렬됨
-- `Neutral`
-  - 정보가 부족하거나 추가 데이터가 필요함
-- `Cautious`
-  - 특수 조건, 촉매, 극한 환경, 추가 가정이 필요함
-- `Negative`
-  - 보존 법칙이나 차수 추정과 강하게 어긋남
-
-예:
-
-- “물 전기분해에는 최소한의 가역 전압 문맥이 필요하다” -> `Positive`
-- “이 촉매가 선택도를 높였다” -> `Neutral`
-- “상온에서 무손실 조건으로 모든 반응이 해결된다” -> `Cautious`
-- “투입 에너지보다 더 큰 에너지를 화학 반응이 공짜로 낸다” -> `Negative`
-
-## 현재 구현이 주는 것
-
-현재 foundation report는 대략 다음을 요약한다.
-
-- `verdict`
-- `thermodynamic_feasibility`
-- `kinetic_accessibility`
-- `equilibrium_position`
-- `omega`
-- `key_risk`
-- `recommendation`
-
-즉 정답 선언보다, **반응을 어디서 조심해서 읽어야 하는지**를 보여준다.
-
-## 테스트와 정합성
-
-현재 테스트:
+루트 패키지 테스트:
 
 ```text
-80 passed
+85 passed
 ```
 
-포함 범주:
+루트 검증 스크립트:
 
-- contracts
-- species and conservation
-- thermodynamics
-- kinetics
-- equilibrium
-- electrochemistry
-- screening
-- domain mappings
-- extension hooks
-- foundation roll-up
-- health
-- package integrity
+- `python3 scripts/verify_package_identity.py`
+- `python3 scripts/verify_hub_snapshot.py`
+- `python3 scripts/verify_signature.py`
+- `python3 scripts/release_check.py`
+
+즉 지금은 루트 패키지 정합성뿐 아니라,  
+`3_chemical` 허브 스냅샷이 레포 안에 존재하는지도 같이 확인한다.
+
+---
 
 ## 무결성
 
 - [SIGNATURE.sha256](SIGNATURE.sha256)
 - [BLOCKCHAIN_INFO.md](BLOCKCHAIN_INFO.md)
+- [BLOCKCHAIN_INFO_EN.md](BLOCKCHAIN_INFO_EN.md)
 - [PHAM_BLOCKCHAIN_LOG.md](PHAM_BLOCKCHAIN_LOG.md)
 
-관련 스크립트:
+현재 서명은 루트 패키지뿐 아니라,  
+레포에 포함된 `3_chemical` 트리까지 함께 추적한다.
 
-- `python3 scripts/generate_signature.py`
-- `python3 scripts/verify_signature.py`
-- `python3 scripts/verify_package_identity.py`
-- `python3 scripts/release_check.py`
-
-## 현재 한계
-
-- 정밀 열물성 데이터베이스를 내장하지 않는다
-- 다단 반응 네트워크 자동 해석은 아직 약하다
-- 분자 오비탈/전자 구조 해석은 범위 밖이다
-- 수식은 구조 관찰용 근사이며, 정밀 공정 시뮬레이터를 대체하지 않는다
-- 높은 `omega`는 “말이 되는 구조”를 뜻할 수는 있어도, 실험적 진실을 확정하지는 않는다
-
-## 확장 방향
-
-가장 자연스러운 다음 단계:
-
-1. `Chemical_Observer_Foundation`
-2. element foundations
-   - Hydrogen / Oxygen / Nitrogen / Lithium / Phosphorus / Silicon
-3. applied chemistry engines
-   - battery
-   - capture
-   - materials
-   - cooking
-4. VectorSpace bridge
-
-즉 이 엔진은 화학의 끝이 아니라, 화학 레이어의 뿌리다.
-
-## 단독 클론 사용자에게
-
-`00_BRAIN` 전체 워크스페이스에서는 여러 형제 엔진과 연결되지만,
-이 공개 저장소는 **단독으로도 읽고 테스트할 수 있는 foundation package** 로 유지된다.
-
-형제 엔진 링크는 확장 방향을 설명하기 위한 것이지,
-이 저장소가 그 엔진들 없이는 동작하지 않는다는 뜻은 아니다.
+이 무결성 층은 “절대 진실 보증”이 아니라,  
+**현재 공개 저장소 상태를 추적하고 drift 를 빨리 발견하기 위한 저장소 레벨 서명**이다.
 
 ---
 
-*Meterial v0.2.1 — E5 chemistry foundation for observing reaction structure, not declaring final chemical truth.*
+## 현재 한계
+
+- 모든 원소 foundation 이 같은 성숙도에 도달한 것은 아니다
+- `3_chemical` 은 관리 스냅샷이며, 일부 항목은 다른 허브/정본 위치와 관계를 가진다
+- 고정밀 화학 데이터베이스나 고급 시뮬레이터를 대체하지 않는다
+- root package 와 chemistry hub 사이의 연결은 계속 확장 중이다
+- 이 레포는 “완성 선언”보다 **확장 가능한 chemistry layer 관리**를 우선한다
+
+---
+
+## 앞으로의 확장 방향
+
+가장 자연스러운 다음 단계:
+
+1. element foundation 계속 확장
+2. `Chemical_Observer_Foundation` 계열 추가
+3. applied chemistry engine 과의 bridge 강화
+4. `VectorSpace_102` 와의 hub adapter 보강
+5. `3_chemical` 전체 공통 smoke/release 규칙 정리
+
+즉 `Meterial` 은 chemistry layer 의 끝이 아니라,  
+**화학 레이어를 한 번에 관리하기 위한 public umbrella repository** 다.
+
+---
+
+## 단독 클론 사용자에게
+
+이 저장소는 `00_BRAIN` 전체 없이도 읽고 테스트할 수 있다.  
+다만 공개 저장소 안의 `3_chemical` 은 “현재 chemistry layer 의 관리 스냅샷”이라는 점을 기억하면 좋다.
+
+정리하면:
+
+- 패키지를 쓰고 싶으면 `chemical_reaction`
+- 전체 화학 레이어를 보고 싶으면 `3_chemical`
+
+이 두 진입점을 기억하면 된다.
+
+---
+
+*Meterial v0.3.0 — stable chemical root package plus a managed `3_chemical` umbrella snapshot for the evolving chemistry layer.*

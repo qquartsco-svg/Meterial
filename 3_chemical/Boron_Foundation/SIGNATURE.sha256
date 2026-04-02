@@ -1,0 +1,19 @@
+{
+  "files": {
+    "CHANGELOG.md": "fcf3e8d46f7c5c285ae29c2580d2f4cc069f5489bdf2c1d710e311c159b57e79",
+    "README.md": "9138ee43c7d01eaadd4764bc7be141c3f505182ebb36cc893e76d17a5077429f",
+    "README_EN.md": "0b3da82423867a6aa8d5e0d776c95905a3752ef1ccc77927b450d7fa98f7f7fb",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "boron/__init__.py": "202c44ca17e0e1933a96ce99a4ddcfc6fb1e77677b8da4f6ece1f98136314d4e",
+    "boron/constants.py": "9a74a34232853aaeef95d4c0c1ade2740382c4d50272c3d597e06647acc3cfbb",
+    "boron/contracts.py": "4a319463c2add1dec31fe88333e00596711bc47692de096b345740829daf438b",
+    "boron/foundation.py": "1a17ac3f94ade76ce37b8e1ae82ab5e14b4398e7cbbc5fd6afff15ff6b7d11ae",
+    "pyproject.toml": "0f205d55000598565f5d93b4794662f99180ad9b828b74f08e12a8de8c6eb9b4",
+    "scripts/generate_signature.py": "ad4b7f9511b7190b6677c10499d4aba0a06fe3437111ee765ce4f4b93b4327db",
+    "scripts/verify_signature.py": "892add927765bd337422f6d144a89639723e25559c924effc4ebf949ac5289e8",
+    "tests/conftest.py": "426e78beca88d02e4491ddcdc892ee7144cd4e232625a23d2c0ccd1f457b3981",
+    "tests/test_boron_foundation.py": "d596dc0737efe13ee88a5ad21c54de9d18b25217d469fc30400533aaadaaedae"
+  },
+  "timestamp": "2026-04-02T09:29:32.137621+00:00",
+  "block_hash": "1e1644ac2e07772af00a80e9e81e678ec1bcda73374cb53055222fa67c29b3a7"
+}

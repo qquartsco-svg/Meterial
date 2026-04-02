@@ -1,102 +1,172 @@
-# Meterial v0.2.1
+# Meterial v0.3.0
 
 > **English.** Korean canonical version: [README.md](README.md)
 
-Chemical reactions are often treated as if they were closed answers.  
-This engine takes a different stance: it provides an environment for observing **how species transform, how energy is exchanged, how rates change, where equilibrium sits, and how electrons move**.
+`Meterial` no longer refers only to a single chemical-reaction package.  
+This repository now acts as an **umbrella chemistry repository** for the chemistry work that has already been built.
 
-`Meterial` is an **E5 Chemistry foundation layer**.  
-It does not claim to settle “what chemistry is” once and for all. It provides a shared language for reading reaction structure conservatively.
+It currently has two layers:
+
+1. a stable root Python package: [`chemical_reaction`](chemical_reaction)
+2. a managed chemistry hub snapshot: [`3_chemical/`](3_chemical)
 
 > The public repository name is `Meterial`.  
-> The internal Python package import remains `chemical_reaction` for compatibility.
+> The internal Python import remains `chemical_reaction` for compatibility.
 
-## What It Is
+---
 
-This engine helps:
+## What This Repository Is
 
-- express species and reactions as contracts
-- verify mass and charge conservation
-- estimate thermodynamic favorability
-- estimate kinetic accessibility
-- inspect equilibrium bias
-- evaluate electrochemical context
-- screen exaggerated chemical claims with ATHENA-style verdicts
+This repository is meant to help us observe and organize:
 
-In short, it is a **chemical observer-ready foundation**.
+- which species exist
+- which reactions appear structurally possible
+- how energy tends to flow
+- how kinetic barriers shape accessibility
+- where equilibria may sit
+- how electrochemistry changes the picture
+- how element foundations and applied chemistry engines connect
 
-## What It Is Not
+So `Meterial` is **not** a repository that declares final chemical truth.  
+It is a public umbrella for a chemistry layer that is still being built carefully.
 
-- not a molecular dynamics simulator
-- not a quantum chemistry solver
-- not a plant-scale process design suite
-- not a precision thermophysical database
-- not an engine that declares experimental truth for you
+---
 
-Its current role is mostly **tree-level / order-of-magnitude structural reasoning**.
+## What It Contains Right Now
 
-## Why It Matters
+### 1. Stable chemical root package
 
-Many engineering engines already consume chemistry as parameters:
+The root package [`chemical_reaction`](chemical_reaction) provides:
 
-- batteries
-- hydrogen production and storage
-- element capture
-- carbon composite curing
-- cooking chemistry
+- species and reaction contracts
+- mass and charge conservation checks
+- thermodynamic direction via `ΔG = ΔH - TΔS`
+- kinetic accessibility via Arrhenius-style reasoning
+- equilibrium bias via `K_eq = exp(-ΔG°/RT)`
+- electrochemical context via Nernst / Faraday / Butler-Volmer
+- ATHENA-style screening for exaggerated claims
 
-Without a common chemistry layer, those parameters drift apart into isolated local languages.
+This remains the stable **E5 chemistry root foundation**.
 
-This engine is meant to reduce that drift.
+### 2. Managed chemistry hub snapshot
 
-## Epistemic Position
+The folder [`3_chemical/`](3_chemical) bundles the current chemistry layer tree:
 
-See [EPISTEMIC_LAYER_MAP_EN.md](../../EPISTEMIC_LAYER_MAP_EN.md).
+- chemical root
+  - `Chemical_Reaction_Foundation`
+- element foundations
+  - `Hydrogen_Foundation`
+  - `Helium_Foundation`
+  - `Lithium_Foundation`
+  - `Nitrogen_Foundation`
+  - `Oxygen_Foundation`
+  - `Phosphorus_Foundation`
+  - `Silicon_Foundation`
+  - and additional element/material foundations now being added
+- applied chemistry engines
+  - `Element_Capture_Foundation`
+  - `Battery_Dynamics_Engine`
+  - `Carbon_Composite_Stack`
+  - `Cooking_Process_Foundation`
+
+This is not presented as a completed periodic-table system.  
+It is a **managed snapshot of the chemistry layer as it currently exists**.
+
+---
+
+## How To Read It
+
+The repository is easiest to read in this order:
+
+1. [`chemical_reaction/`](chemical_reaction)
+   - the core grammar for reading reactions
+2. [`3_chemical/README.md`](3_chemical/README.md)
+   - the chemistry hub structure
+3. [`3_chemical/ELEMENT_REGISTRY.md`](3_chemical/ELEMENT_REGISTRY.md)
+   - which element foundations are active or planned
+4. individual foundation / applied engine READMEs
+   - specific chemistry domains
+
+In short:
+
+- `chemical_reaction` = core grammar
+- `3_chemical` = managed layer map
+
+---
+
+## Current Chemistry Flow
+
+The current flow can be read like this:
 
 ```text
-E4 Engineering
-  -> batteries, hydrogen, capture, materials, processes
-E5 Chemistry
-  -> Meterial
-E6 Biology
-  -> ATP, blood, neurons, memory, cognition
+chemical_reaction
+  -> 3_chemical/Chemical_Reaction_Foundation
+  -> element foundations
+     -> Hydrogen / Helium / Lithium / Nitrogen / Oxygen / ...
+  -> applied chemistry engines
+     -> Element_Capture / Battery / Carbon_Composite / Cooking
 ```
 
-## Working Definition
+The point is not to claim that this flow is finished forever.  
+The point is to keep the chemistry layer readable as it grows.
 
-This engine adopts the following working definition:
+---
 
-> A chemical reaction can be read as a process in which bonds are rearranged and matter/energy are transformed through species change and electron transfer.
+## Why An Umbrella Repository
 
-This is not presented as final truth. It is a starting frame for structured observation.
+Once chemistry-related engines begin to multiply, a single foundation README is no longer enough.
 
-## Layer Map
+For example:
 
-| Layer | Module | Question |
-|---|---|---|
-| L0 | `contracts.py`, `constants.py` | how do we represent the system? |
-| L1 | `species_and_bonds.py` | what species and bonds exist? |
-| L2 | `thermodynamics.py` | is the reaction favorable? |
-| L3 | `kinetics.py` | how fast or slow might it be? |
-| L4 | `equilibrium.py` | where does it tend to settle? |
-| L5 | `electrochemistry.py` | what changes when electrons are exchanged? |
-| L6 | `screening.py` | is the claim overstated? |
-| L7 | `extension_hooks.py` | how does it connect to sibling engines? |
+- hydrogen connects to electrolysis, storage, fuel cells, and safety
+- oxygen connects to ASU, LOX, and electrolysis
+- lithium connects directly to battery chemistry
+- phosphorus and nitrogen connect to biology, fertilizers, and ATP loops
+- carbon composites connect chemistry to materials and process control
+- element capture connects chemistry to life-support and resource recovery
 
-## Core Equations
+Because of that, `Meterial` now manages both:
+
+- the root package
+- the broader chemistry hub snapshot
+
+---
+
+## What It Does Not Do
+
+This repository does **not** currently aim to:
+
+- settle chemistry once and for all
+- replace a precision chemistry database
+- run quantum chemistry or molecular dynamics
+- pretend that every element foundation is equally mature
+- claim that the whole periodic table is already complete here
+
+It is a repository for **structured expansion**, not for premature closure.
+
+---
+
+## Core Equations In The Root Package
+
+The root `chemical_reaction` package uses these equations as a shared structural language:
 
 | Name | Equation | Intuition |
 |---|---|---|
-| Gibbs free energy | `ΔG = ΔH - TΔS` | direction of spontaneity |
-| Arrhenius constant | `k = A exp(-Ea/RT)` | temperature and barrier control rate |
-| Half-life | `t1/2 = ln 2 / k` | timescale for a first-order process |
+| Gibbs free energy | `ΔG = ΔH - TΔS` | reaction direction |
+| Arrhenius constant | `k = A exp(-Ea/RT)` | barriers and temperature shape rates |
 | Rate law | `r = k [A]^a [B]^b` | concentration-to-rate relation |
-| Equilibrium constant | `K_eq = exp(-ΔG°/RT)` | equilibrium position |
-| Nernst equation | `E = E° - (RT/nF) ln Q` | reaction quotient vs cell potential |
+| Equilibrium constant | `K_eq = exp(-ΔG°/RT)` | equilibrium bias |
+| Nernst equation | `E = E° - (RT/nF) ln Q` | potential vs reaction quotient |
 | Faraday law | `m = ItM / nF` | charge-to-mass estimate |
-| Butler-Volmer | `j = j0 [exp(αaFη/RT) - exp(-αcFη/RT)]` | overpotential vs current density |
+| Butler-Volmer | `j = j0 [exp(αaFη/RT) - exp(-αcFη/RT)]` | current density vs overpotential |
+
+These are used as a **conservative reading framework**, not as final proof.
+
+---
 
 ## Quick Start
+
+### Use the root package
 
 ```python
 from chemical_reaction import (
@@ -117,6 +187,7 @@ rxn = Reaction(
     delta_h_kj_per_mol=-571.6,
     delta_s_j_per_mol_k=-326.8,
     activation_energy_kj_per_mol=75.0,
+    label="2H2 + O2 -> 2H2O",
 )
 
 report = assess_chemical_foundation(rxn, temperature_k=298.15)
@@ -126,108 +197,86 @@ print(report.kinetic_accessibility)
 print(report.omega)
 ```
 
-## Sibling Engine Links
+### Explore the chemistry hub
 
-| Sibling | Connection |
-|---|---|
-| `Battery_Dynamics_Engine` | Nernst, Arrhenius, Butler-Volmer |
-| `Element_Capture_Foundation` | electrochemical extraction and separation |
-| `Hydrogen_Foundation` | electrolysis, fuel cells, storage |
-| `Carbon_Composite_Stack` | cure kinetics and thermal budget |
-| `Cooking_Process_Foundation` | Maillard and process chemistry |
-| `TerraCore_Stack` | life-support and gas-cycle chemistry |
-| `VectorSpace_102` | planned adapter into the mathematical hub |
+Start with:
 
-## ATHENA Screening
+- [`3_chemical/README.md`](3_chemical/README.md)
+- [`3_chemical/ELEMENT_REGISTRY.md`](3_chemical/ELEMENT_REGISTRY.md)
+- [`3_chemical/CHEMICAL_GOVERNANCE.md`](3_chemical/CHEMICAL_GOVERNANCE.md)
 
-This engine uses four conservative claim-reading modes:
+Then move into the specific element or applied engine you want.
 
-- `Positive`
-- `Neutral`
-- `Cautious`
-- `Negative`
+---
 
-Examples:
+## Tests And Verification
 
-- “Water electrolysis has a reversible-voltage context” -> `Positive`
-- “This catalyst improves selectivity” -> `Neutral`
-- “Special superconducting conditions may reduce losses” -> `Cautious`
-- “This chemical loop yields free energy above input with no external cost” -> `Negative`
-
-## What The Foundation Report Gives
-
-The current roll-up emphasizes:
-
-- `verdict`
-- `thermodynamic_feasibility`
-- `kinetic_accessibility`
-- `equilibrium_position`
-- `omega`
-- `key_risk`
-- `recommendation`
-
-So the goal is not to declare a final answer, but to show **where the reaction should be read carefully**.
-
-## Tests
+Root package tests:
 
 ```text
-80 passed
+85 passed
 ```
 
-Coverage currently includes:
+Current verification scripts:
 
-- contracts
-- species and conservation
-- thermodynamics
-- kinetics
-- equilibrium
-- electrochemistry
-- screening
-- domain mappings
-- extension hooks
-- foundation roll-up
-- health
-- package integrity
+- `python3 scripts/verify_package_identity.py`
+- `python3 scripts/verify_hub_snapshot.py`
+- `python3 scripts/verify_signature.py`
+- `python3 scripts/release_check.py`
+
+So the repository now checks not only the root package, but also whether the `3_chemical` hub snapshot is actually present.
+
+---
 
 ## Integrity
 
 - [SIGNATURE.sha256](SIGNATURE.sha256)
+- [BLOCKCHAIN_INFO.md](BLOCKCHAIN_INFO.md)
 - [BLOCKCHAIN_INFO_EN.md](BLOCKCHAIN_INFO_EN.md)
 - [PHAM_BLOCKCHAIN_LOG.md](PHAM_BLOCKCHAIN_LOG.md)
 
-Scripts:
+The integrity manifest now tracks the umbrella repository contents, including `3_chemical/`.
 
-- `python3 scripts/generate_signature.py`
-- `python3 scripts/verify_signature.py`
-- `python3 scripts/verify_package_identity.py`
-- `python3 scripts/release_check.py`
-
-## Current Limits
-
-- no precision thermophysical database
-- limited automatic handling of multi-step reaction networks
-- no orbital/electronic-structure modeling
-- equations are structural approximations, not replacements for high-end chemical simulators
-- a high `omega` can indicate structural consistency, but it does not certify experimental truth
-
-## Extension Direction
-
-Natural next steps:
-
-1. `Chemical_Observer_Foundation`
-2. element foundations
-3. applied chemistry engines
-4. `VectorSpace_102` bridge
-
-This repository is therefore not the end of the chemistry layer. It is the root.
-
-## For Standalone Clone Users
-
-Inside the broader `00_BRAIN` workspace this project links to sibling engines,  
-but the public repository is kept readable and testable as a **standalone foundation package**.
-
-Sibling links describe extension direction, not a hard runtime dependency.
+This should be read as a repository-level **blockchain-style integrity layer**, not as an absolute truth guarantee.
 
 ---
 
-*Meterial v0.2.1 — E5 chemistry foundation for observing reaction structure rather than declaring final chemical truth.*
+## Current Limits
+
+- not every element foundation is equally mature yet
+- `3_chemical` is a managed snapshot, not a claim of final completeness
+- the root package does not replace high-end chemistry simulators
+- links between the root package and all chemistry sub-engines are still expanding
+- the repository prioritizes manageability and coherence over premature certainty
+
+---
+
+## Extension Direction
+
+Natural next steps include:
+
+1. expanding the element foundations
+2. adding a `Chemical_Observer_Foundation`
+3. strengthening bridges to applied chemistry engines
+4. improving `VectorSpace_102` adapters
+5. introducing broader hub-wide smoke/release rules for `3_chemical`
+
+So `Meterial` is not the end of the chemistry layer.  
+It is the public umbrella used to manage that layer as it grows.
+
+---
+
+## For Standalone Clone Users
+
+This repository remains readable and testable even without the full `00_BRAIN` workspace.
+
+The main distinction is:
+
+- use `chemical_reaction` if you want the stable Python foundation package
+- browse `3_chemical` if you want the current chemistry layer map
+
+That split is intentional.
+
+---
+
+*Meterial v0.3.0 — a stable chemical root package plus a managed `3_chemical` umbrella snapshot for the evolving chemistry layer.*

@@ -1,0 +1,24 @@
+{
+  "files": {
+    "CHANGELOG.md": "424624717783ef2cb3f491b3c458653480be7788453d37dff92f262a03729553",
+    "README.md": "872efe947f18fd59eedbcf3abfb531c9680cfc7ec65296d9e08addcf29eb95d9",
+    "README_EN.md": "a41fdf3055aa7c65fc55e1e2905e5c6045c305906a35ba7e9f03d1ec85db988a",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "phosphorus/__init__.py": "30512f077f2a1997400dcea30cdc598fa730584971faaa23843e3991e1d44fc2",
+    "phosphorus/bioenergetics.py": "6b7f1f2423bbfb9a62519fcb865b3ddf3096711f437aabdf67c98e6b98bc6222",
+    "phosphorus/constants.py": "7ea99557531a66ab75ffb03f3202070fb0989f8eecf5c08c8e5f061dddedd87f",
+    "phosphorus/contracts.py": "5c023f069036826c452865df2230bd7b795c38f432b0e5b5a6ab82c428398321",
+    "phosphorus/extension_hooks.py": "3818527394c8ce7b7e82536ea861c58f37ab77027996f7bc27e66b35af6db733",
+    "phosphorus/extraction.py": "62abfefae545fa7aeba319604ace7e0a0e73e2550323e4d793fcd6d050e8ba2d",
+    "phosphorus/foundation.py": "3aebb0da5ecab9ac9c8a015fdcb04018a81a30d1a96824d0533e957725595bce",
+    "phosphorus/properties.py": "a64234083aa9ba1ed4faaf09623c96ba6e6a4dcbf9c1fece6ff1d4facb3aba1f",
+    "phosphorus/screening.py": "97f5fe6a004c1a56732d23d540dd2c5080a130417acff0f88304653aa9f3841d",
+    "pyproject.toml": "8f00443e272f9b17af464018094303b02bdc36611fc203a4c9c45c2aa1b1059d",
+    "scripts/generate_signature.py": "a7e5703e9767a3191e888e3638216bb31399132b3cf1000951c3057996c10148",
+    "scripts/verify_signature.py": "248a241f6c2e05d4532b51f10bfe3fd21a108c72a3edc5c757e36e7924e47cce",
+    "tests/conftest.py": "f919902a08ca82f4ac6e94fa1f32486241493a0ed2baed231fe83560b58ad4df",
+    "tests/test_phosphorus_foundation.py": "45b702831e7941e7be9e9d09a315e9b6aafe6a326008994c18121de70faa50af"
+  },
+  "timestamp": "2026-04-02T08:46:10.612475+00:00",
+  "block_hash": "d11c4a0115eed0ca775d86ee4d0d3b975f733e7db26b394344a0b643651cb000"
+}

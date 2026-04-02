@@ -1,0 +1,19 @@
+{
+  "files": {
+    "re_mag/__init__.py": "202c44ca17e0e1933a96ce99a4ddcfc6fb1e77677b8da4f6ece1f98136314d4e",
+    "re_mag/constants.py": "b4fd51d961c4db70412dd9041c85f9d6bebe96dd224028239d42535656967633",
+    "re_mag/contracts.py": "d3aaddc37d02afa3049d5eab05d87cfa9ac95cb7967cc1aec5942be41596d2af",
+    "re_mag/foundation.py": "67efbee482ed42ca03d32916b832bb68a78a7f4d8e450894e31a9dd7acd57e68",
+    "tests/conftest.py": "426e78beca88d02e4491ddcdc892ee7144cd4e232625a23d2c0ccd1f457b3981",
+    "tests/test_re_mag_foundation.py": "3c80ac3b78fe949a6fda06d2faf3feeea7608b2bf887dfb6f88a2264bd45f3d2",
+    "README.md": "eb7e7080533712d58a2563d1de49cd647cc98b83ffba859367084b3316cb4491",
+    "README_EN.md": "c543f3130b6bce32f716c4590242ce0bf515f8d49ba1315d376bd886192f8138",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "pyproject.toml": "c4ea772cedf807f60722d89eb1f365df9d1d9e84bf6f76329badf4aff6574c3d",
+    "CHANGELOG.md": "fcf3e8d46f7c5c285ae29c2580d2f4cc069f5489bdf2c1d710e311c159b57e79",
+    "scripts/generate_signature.py": "ce88f054a96955168376be46b81620dd62097e37f3fe2c5af668365bddb3dd24",
+    "scripts/verify_signature.py": "715325c4ba38ef80d7868eb59f0f4212f4c6b51591130723969427c0fb7ce75d"
+  },
+  "timestamp": "2026-04-02T09:40:38.285213+00:00",
+  "block_hash": "b60097a6cf483525ef12f86dfdd72c6951cd1392de5a6d1a4ac67175075cd692"
+}

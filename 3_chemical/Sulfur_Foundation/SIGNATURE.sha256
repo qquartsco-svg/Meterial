@@ -1,0 +1,19 @@
+{
+  "files": {
+    "CHANGELOG.md": "0f95e66ab3feb535cfcb900f525c1331842aa3c89635cad8bad627fc81dd3104",
+    "README.md": "f054b45f5767e49bf0d41e7c39d71bd992ccbcb6ed9aace8509a67ff8fed9699",
+    "README_EN.md": "15667390f63d80afe87ac2f64830381a98d1b34178c79b0d734a7a1ba976195f",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "pyproject.toml": "d3467bbc557834519677319d804fe0ba7373324b327f116e8a25b430232f8497",
+    "scripts/generate_signature.py": "076333f4a5ef1e54c54b2e13f8dd5783effa111c1d19f36c5ed61eff40a314ad",
+    "scripts/verify_signature.py": "892add927765bd337422f6d144a89639723e25559c924effc4ebf949ac5289e8",
+    "sulfur/__init__.py": "202c44ca17e0e1933a96ce99a4ddcfc6fb1e77677b8da4f6ece1f98136314d4e",
+    "sulfur/constants.py": "48a9f9ed14b852726b60391749f3fe270638046d2bcfde8c2df8f4480d324743",
+    "sulfur/contracts.py": "8c029604c14aa799f3d24ec61f7a6d0b4723abea6ba7ee2e442b9885ae970c09",
+    "sulfur/foundation.py": "09a4bea081dae5f731cd31cc017ca1e5a334c7d6d98769d6b5bdf326957b80e4",
+    "tests/conftest.py": "426e78beca88d02e4491ddcdc892ee7144cd4e232625a23d2c0ccd1f457b3981",
+    "tests/test_sulfur_foundation.py": "79603dee6d028508d68577310d88be22d4365b53644bac10e43ee418691a59eb"
+  },
+  "timestamp": "2026-04-02T09:26:17.177792+00:00",
+  "block_hash": "30a7b792752160e59a3bbcd7a043bd96de66ddbc17bed0dc13dd1c31f6da6250"
+}

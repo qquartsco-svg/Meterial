@@ -1,0 +1,24 @@
+{
+  "files": {
+    "CHANGELOG.md": "e85c4c0f13b0e123cbd7ee517f1db2dd733d747eaea007fbce23a76dc3de46e4",
+    "README.md": "50b781ce9882d5903f6ba861b269da4b40494067cfa5fee9511c7a4373670ed2",
+    "README_EN.md": "9d07446f226bde97b71becb45a8bd61933c359a738e887d1ad32adc0f9ba23bc",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "lithium/__init__.py": "b8776157b4bcd434bd3783958b6f0d5d56c4f4c01e239092bf923fb37ebf8157",
+    "lithium/battery.py": "ecd8999c73a8dbe2addba66c992a78dc8de31d96494d61ee5c1d904f0b9cb47b",
+    "lithium/constants.py": "98167bc33268f85fbccdd40a4b9877012537630b6b139cbb8e1250e12e81a9a2",
+    "lithium/contracts.py": "8ca542c3e17f3043acdf581c26feacb97d0bf2c3e10d1cd16a9a5088f7700c86",
+    "lithium/extension_hooks.py": "f33200623aa3c7fc5788959e4fd96eb54cac5ea2e9548e999c963f0b435b57a4",
+    "lithium/extraction.py": "1d97565e6bcf8779d7310658c4080c682ac5ae0a8918dbe2100f097f1013d219",
+    "lithium/foundation.py": "3a1f76231d47392a75ce2562e08cc933e71f5adae58c154f62be23799cce1056",
+    "lithium/properties.py": "6aff372eef82bbf283168d020792d8e3435ef4a4a26747a53e4f64acf2fa61b7",
+    "lithium/screening.py": "b8bd91f3b00955f47f215ff4ecf52b6bf77248f1e51a85fe44bbc6efadb1cbf3",
+    "pyproject.toml": "5c7d3d47bbd02ccf8a91531dcac7c4496b3b7a0255b8ead9c3ec75afa579e405",
+    "scripts/generate_signature.py": "9fb6051e9bf1d2257a012bcd5cf60a1fda410635f3b6a834047db8c3d656c97a",
+    "scripts/verify_signature.py": "23b0a7268a42fa53b626d34247e204c20a2980abe22bff7ebe96eff2434af9ac",
+    "tests/conftest.py": "f919902a08ca82f4ac6e94fa1f32486241493a0ed2baed231fe83560b58ad4df",
+    "tests/test_lithium_foundation.py": "b29758197f2ee4f9975dc0fc0bef401cf978aaacb686fdaae0ae4e891858c373"
+  },
+  "timestamp": "2026-04-02T08:40:54.073496+00:00",
+  "block_hash": "d72f2b4f2d26ad9a55b2f472110fd734ac6d324ffab52163b8b941b1582d4035"
+}

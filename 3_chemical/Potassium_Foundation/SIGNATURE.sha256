@@ -1,0 +1,19 @@
+{
+  "files": {
+    "CHANGELOG.md": "7421b8a292c627d62f4ee2603233bd9b855a99e1c180bf0b5fc5bf7d637cc49c",
+    "README.md": "9e0c32dd2217868e940f5a02bc48dcef7fd66c4f751f905d6273a497b5bbae54",
+    "README_EN.md": "a43599ccc6dceb82c21fa33eaa48488c1eec6d99980c0f129bbc7c564f93b553",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "potassium/__init__.py": "202c44ca17e0e1933a96ce99a4ddcfc6fb1e77677b8da4f6ece1f98136314d4e",
+    "potassium/constants.py": "1d574a1b8650b3fca3f2718df8d8d01f6c8e76dfb3743f26ecc6dcc226177d60",
+    "potassium/contracts.py": "38e6e6e357bf474f8c4565d3f644877d1f3926110265b054414f0db3eab91998",
+    "potassium/foundation.py": "669f69401868184bbba300a36da486328155b06ea4b10dc97544f129bf3456c6",
+    "pyproject.toml": "76b20c442e6c9c36bc8023d3f05fb58de7b68df372f0a6298572c00d91337a8b",
+    "scripts/generate_signature.py": "6dd0013d41f874492e3475ea6b1a1484a13db3d085b04fd676b1d48ec9cd6c30",
+    "scripts/verify_signature.py": "892add927765bd337422f6d144a89639723e25559c924effc4ebf949ac5289e8",
+    "tests/conftest.py": "426e78beca88d02e4491ddcdc892ee7144cd4e232625a23d2c0ccd1f457b3981",
+    "tests/test_potassium_foundation.py": "ee24a21511d69182f6fc8f790243072da52ea980bdaaaa0ab36020cc4b76a0e0"
+  },
+  "timestamp": "2026-04-02T09:21:29.547077+00:00",
+  "block_hash": "7c71b67cc81ec8e8961dfc1be9c560792ab8577e2dd65ec5ae7c1a99cf0d027c"
+}

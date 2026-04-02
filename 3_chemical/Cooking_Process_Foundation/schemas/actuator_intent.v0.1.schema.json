@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://00-brain.local/schemas/actuator_intent.v0.1.schema.json",
+  "title": "ActuatorIntent v0.1 (HAL / robot adapter input)",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "flow_id",
+    "step_id",
+    "skill",
+    "heat_ceiling_0_1",
+    "mission_pause",
+    "estop_recommended",
+    "allow_manipulator_motion",
+    "vessel_surface_temp_c",
+    "brownness_0_1"
+  ],
+  "properties": {
+    "schema_version": { "const": "actuator_intent.v0.1" },
+    "flow_id": { "type": "string" },
+    "step_id": { "type": "string" },
+    "skill": {
+      "type": "object",
+      "required": ["tradition", "technique", "variant"],
+      "properties": {
+        "tradition": { "type": "string" },
+        "technique": { "type": "string" },
+        "variant": { "type": "string" }
+      }
+    },
+    "heat_ceiling_0_1": { "type": "number", "minimum": 0, "maximum": 1 },
+    "mission_pause": { "type": "boolean" },
+    "estop_recommended": { "type": "boolean" },
+    "allow_manipulator_motion": { "type": "boolean" },
+    "vessel_surface_temp_c": { "type": "number" },
+    "brownness_0_1": { "type": "number", "minimum": 0, "maximum": 1 }
+  }
+}

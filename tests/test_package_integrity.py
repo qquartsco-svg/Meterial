@@ -45,6 +45,7 @@ def test_signature_and_scripts_exist() -> None:
     assert (ROOT / "SIGNATURE.sha256").is_file()
     assert (ROOT / "scripts" / "generate_signature.py").is_file()
     assert (ROOT / "scripts" / "verify_signature.py").is_file()
+    assert (ROOT / "scripts" / "verify_hub_snapshot.py").is_file()
     assert (ROOT / "scripts" / "release_check.py").is_file()
 
 
@@ -52,3 +53,12 @@ def test_blockchain_docs_exist() -> None:
     assert (ROOT / "BLOCKCHAIN_INFO.md").is_file()
     assert (ROOT / "BLOCKCHAIN_INFO_EN.md").is_file()
     assert (ROOT / "PHAM_BLOCKCHAIN_LOG.md").is_file()
+
+
+def test_3_chemical_hub_exists() -> None:
+    hub = ROOT / "3_chemical"
+    assert hub.is_dir()
+    assert (hub / "README.md").is_file()
+    assert (hub / "ELEMENT_REGISTRY.md").is_file()
+    assert (hub / "Chemical_Reaction_Foundation").is_dir()
+    assert (hub / "Hydrogen_Foundation").is_dir()

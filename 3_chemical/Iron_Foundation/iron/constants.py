@@ -1,0 +1,9 @@
+from __future__ import annotations
+
+FE_MOLAR_MASS_G_PER_MOL = 55.845
+FE_DENSITY_G_PER_CM3 = 7.874
+FE_MELTING_POINT_K = 1811.0
+FE_BOILING_POINT_K = 3134.0
+
+# corrosion anchor (cartoon)
+FE_CORROSION_RATE_MM_PER_YEAR_TYPICAL = 0.1

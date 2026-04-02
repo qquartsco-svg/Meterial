@@ -1,7 +1,7 @@
 [project]
 name = "meterial"
-version = "0.2.1"
-description = "Meterial — E5 chemistry/material reaction foundation for species, thermodynamics, kinetics, equilibrium, electrochemistry, and screening"
+version = "0.3.0"
+description = "Meterial — umbrella chemistry/material repository with a stable chemical_reaction foundation package and a managed 3_chemical hub snapshot"
 requires-python = ">=3.10"
 
 [build-system]

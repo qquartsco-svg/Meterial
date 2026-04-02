@@ -1,4 +1,4 @@
-"""Comprehensive tests for Meterial v0.2.1."""
+"""Comprehensive tests for Meterial v0.3.0."""
 
 from __future__ import annotations
 
@@ -562,7 +562,7 @@ class TestHealth:
 class TestPackageIntegrity:
     def test_version(self):
         from chemical_reaction import __version__
-        assert __version__ == "0.2.1"
+        assert __version__ == "0.3.0"
 
     def test_public_api_exports(self):
         import chemical_reaction
@@ -586,4 +586,4 @@ class TestPackageIntegrity:
     def test_version_file_matches(self):
         from pathlib import Path
         version_path = Path(__file__).resolve().parent.parent / "VERSION"
-        assert version_path.read_text().strip() == "0.2.1"
+        assert version_path.read_text().strip() == "0.3.0"

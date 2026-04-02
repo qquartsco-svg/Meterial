@@ -1,0 +1,19 @@
+{
+  "files": {
+    "CHANGELOG.md": "100f51ca9a6c8c88bd36bb94dd70cdc8ecce58e4f3ef0c38c2f4928abc1f1a59",
+    "README.md": "16f7d3505144f702d10f5eee80c3582441ea5cf6f6d154b185519b8fdf9ced50",
+    "README_EN.md": "f312bbb8057a13f94b46f97bc55bb8c26adc6101320a2ec6fba58f6118af2b76",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "pyproject.toml": "99a23221dc2b254e6df431d74e95ea396251efeb443c1c961d347076b751084e",
+    "scripts/generate_signature.py": "95dfcda0413efa419bc174317cc36fbbbe48eb2da95045995b5d2131bf35c536",
+    "scripts/verify_signature.py": "9080829f6f04ae4fa7944e25bcddb3aa50a9f4d113c090ca95627913f228d012",
+    "sodium_chlorine/__init__.py": "f13488794942b98516e6ce69ae8e5c2b78c67edeb9a8a68e87ac49b9b4cd33b6",
+    "sodium_chlorine/constants.py": "66c8feb7ecdf342913977487c342788bd9bb092d6fd72f6b7772ae61c51e45fe",
+    "sodium_chlorine/contracts.py": "40f1247690d5cb589b4f781feb00ec864fe2b72ba0a6dd7164a95ad910829380",
+    "sodium_chlorine/foundation.py": "60e7b5e884a016142f2c4ed9278d1d73eef83ea44cba7f3fbb5d8194328266a9",
+    "tests/conftest.py": "f919902a08ca82f4ac6e94fa1f32486241493a0ed2baed231fe83560b58ad4df",
+    "tests/test_sodium_chlorine_foundation.py": "7796d38a8c9d21790af5491f35519de48fc79f20c85546eb3b88ffc61cfe6f64"
+  },
+  "timestamp": "2026-04-02T09:07:46.173863+00:00",
+  "block_hash": "53a6223562a40c0cf7bb3028b208bda0e86771ee5cffa14fdbc9e999b7c755c9"
+}

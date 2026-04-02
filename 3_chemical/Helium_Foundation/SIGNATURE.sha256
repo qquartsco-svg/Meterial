@@ -1,0 +1,26 @@
+{
+  "files": {
+    "CHANGELOG.md": "dfb8856d9fc894e6a6425ee31ca178558da744df082aef0865eeed33f6225f6e",
+    "README.md": "877a5508c620a7508c6d61ac29e8c2550248d75100ad3a90aff3416d95a3ba55",
+    "README_EN.md": "ba412c0f8777643cd8703a4043cafa8358eb68d044c8e25f4b5bf42589f0aafd",
+    "VERSION": "e9dd8507f4bf0c6f42458e41aea833ad0bd3f6127272335eee9bf4d58541ed67",
+    "helium/__init__.py": "e6713d27bec83910553b2e9c7c17d6c881ca4f4b92e4dd6e9e68586f1b20ff61",
+    "helium/constants.py": "f6280081a20c733ad529ff7d6ed0ba192e828036e99127db0d0018b4a23098c5",
+    "helium/contracts.py": "18ee509afc146fe69ed0714e524a93263a2ad7f5c278b56367283492cc408dc3",
+    "helium/domain_space.py": "39232f986f6a3e70bb70f3a37428e3b5cc9ca313bc7b79e9c0a9866ada0c1e5f",
+    "helium/extension_hooks.py": "59500c83336c4a699d30f88dec5f31fb9ae818234281b2d3879a4ade84ffe192",
+    "helium/foundation.py": "7802363ed3cb87744febc966ed34dacc9c7cb3f69bfe6da67558d9cc801d9ece",
+    "helium/properties.py": "c981726acf934e736235c496e135b6e15a33014d582a203acacb927d61bbb381",
+    "helium/safety.py": "eb52bd373e77d2b47944083f54330c2dfdfce7cb3b01b4b9b3808f8cff5c004c",
+    "helium/screening.py": "91e7f163765a3b2730a394f6f0057ae0a6ac3b4285f644deed02522bb0edfa7d",
+    "helium/sourcing.py": "33023ca4cca8864bd2a3ce9fb6e75112b0b008ba36874e6e6c6d0ffd1148294f",
+    "helium/storage.py": "9757a3a8b8b0a02aec2b842544094e8edb45c67e2960707c5a5c8264cd2fd4c5",
+    "pyproject.toml": "40522c7aa5cc0146e230f5212fb96e8b07edb1a4c1480552bf849f4c2fe01f6a",
+    "scripts/generate_signature.py": "6b323358a8da7e533f2bb70f9f7a4d99e0729cbbe0e6478ee28a46b5861158b8",
+    "scripts/verify_signature.py": "5d449b26fe5b5f4081d9e88959ee30b441b4e35dc352e6d429652e6dba61a1b1",
+    "tests/conftest.py": "f919902a08ca82f4ac6e94fa1f32486241493a0ed2baed231fe83560b58ad4df",
+    "tests/test_helium_foundation.py": "896eaf4679c4a92ac0ab5e94001b0b7cabc9ec627c724b0b1e2a515f0f9d5fe7"
+  },
+  "timestamp": "2026-04-02T08:34:39.754259+00:00",
+  "block_hash": "ed5ee720643b73a69bfce20f12871c4456b8953516db3860522d1cd30a822dbd"
+}
