@@ -1,12 +1,15 @@
-# Chemical_Reaction_Foundation v0.2.0
+# Meterial v0.2.1
 
 > **English.** Korean canonical version: [README.md](README.md)
 
 Chemical reactions are often treated as if they were closed answers.  
 This engine takes a different stance: it provides an environment for observing **how species transform, how energy is exchanged, how rates change, where equilibrium sits, and how electrons move**.
 
-`Chemical_Reaction_Foundation` is an **E5 Chemistry foundation layer**.  
+`Meterial` is an **E5 Chemistry foundation layer**.  
 It does not claim to settle “what chemistry is” once and for all. It provides a shared language for reading reaction structure conservatively.
+
+> The public repository name is `Meterial`.  
+> The internal Python package import remains `chemical_reaction` for compatibility.
 
 ## What It Is
 
@@ -54,7 +57,7 @@ See [EPISTEMIC_LAYER_MAP_EN.md](../../EPISTEMIC_LAYER_MAP_EN.md).
 E4 Engineering
   -> batteries, hydrogen, capture, materials, processes
 E5 Chemistry
-  -> Chemical_Reaction_Foundation
+  -> Meterial
 E6 Biology
   -> ATP, blood, neurons, memory, cognition
 ```
@@ -227,4 +230,4 @@ Sibling links describe extension direction, not a hard runtime dependency.
 
 ---
 
-*Chemical_Reaction_Foundation v0.2.0 — E5 chemistry foundation for observing reaction structure rather than declaring final chemical truth.*
+*Meterial v0.2.1 — E5 chemistry foundation for observing reaction structure rather than declaring final chemical truth.*

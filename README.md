@@ -1,12 +1,15 @@
-# Chemical_Reaction_Foundation v0.2.0
+# Meterial v0.2.1
 
 > **한국어 정본.** English: [README_EN.md](README_EN.md)
 
 화학 반응은 “정답 하나로 닫히는 사건”이라기보다,  
 종이 어떻게 바뀌고, 에너지가 어떻게 드나들고, 속도가 어떻게 달라지고, 평형이 어디쯤 형성되는지를 **동역학 흐름으로 읽어야 하는 문제**에 가깝다.
 
-`Chemical_Reaction_Foundation` 은 그 흐름을 관찰하고 구조화하는 **E5 Chemistry foundation layer** 다.  
+`Meterial` 은 그 흐름을 관찰하고 구조화하는 **E5 Chemistry foundation layer** 다.  
 이 엔진은 “화학 반응이 무엇인지 확정한다”기보다, 반응을 읽기 위한 최소 공통 문법과 screening 환경을 제공한다.
+
+> 공개 저장소 이름은 `Meterial` 이다.  
+> 내부 Python 패키지 import 는 호환성을 위해 현재도 `chemical_reaction` 을 사용한다.
 
 ## What It Is
 
@@ -54,7 +57,7 @@
 E4 Engineering
   -> 배터리, 수소, 포집, 재료, 공정
 E5 Chemistry
-  -> Chemical_Reaction_Foundation
+  -> Meterial
 E6 Biology
   -> ATP, 혈액, 감각, 기억, 인지 토큰
 ```
@@ -257,4 +260,4 @@ print(report.omega)
 
 ---
 
-*Chemical_Reaction_Foundation v0.2.0 — E5 chemistry foundation for observing reaction structure, not declaring final chemical truth.*
+*Meterial v0.2.1 — E5 chemistry foundation for observing reaction structure, not declaring final chemical truth.*

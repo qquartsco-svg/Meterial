@@ -1,7 +1,7 @@
 [project]
-name = "chemical-reaction-foundation"
-version = "0.2.0"
-description = "E5 Chemistry foundation — species, thermodynamics, kinetics, equilibrium, electrochemistry, ATHENA screening"
+name = "meterial"
+version = "0.2.1"
+description = "Meterial — E5 chemistry/material reaction foundation for species, thermodynamics, kinetics, equilibrium, electrochemistry, and screening"
 requires-python = ">=3.10"
 
 [build-system]

@@ -1,11 +1,11 @@
-"""Chemical_Reaction_Foundation v0.2.0
+"""Meterial v0.2.1
 
 E5 Chemistry layer for the 00_BRAIN Epistemic Stack.
 Defines species, bonds, thermodynamics, kinetics, equilibrium,
 electrochemistry, and ATHENA screening for chemical claims.
 """
 
-__version__ = "0.2.0"
+__version__ = "0.2.1"
 
 from .contracts import (
     BondInfo,

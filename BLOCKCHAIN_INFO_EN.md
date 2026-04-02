@@ -1,6 +1,6 @@
 # BLOCKCHAIN_INFO
 
-This repository uses `SIGNATURE.sha256` as a lightweight integrity manifest.
+This repository, `Meterial`, uses `SIGNATURE.sha256` as a lightweight integrity manifest.
 
 Purpose:
 

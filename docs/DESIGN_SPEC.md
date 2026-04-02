@@ -1,4 +1,4 @@
-# Chemical_Reaction_Foundation — 설계 사양서
+# Meterial — 설계 사양서
 
 > **한국어 (정본).** English: [DESIGN_SPEC_EN.md](DESIGN_SPEC_EN.md)  
 > 인식론적 위치: **E5 화학** — [EPISTEMIC_LAYER_MAP.md](../../../EPISTEMIC_LAYER_MAP.md)
@@ -34,7 +34,7 @@
 
 ### 한 줄 정의
 
-> **Chemical_Reaction_Foundation** = 화학 종(species)의 변환, 에너지 교환, 평형, 속도를 추적하는 기초 레이어.  
+> **Meterial** = 화학 종(species)의 변환, 에너지 교환, 평형, 속도를 추적하는 기초 레이어.  
 > 반응이 **왜 일어나는지**(열역학), **얼마나 빨리 일어나는지**(동역학), **어디서 멈추는지**(평형)를 관측할 수 있는 환경을 제공한다.
 
 ### 이 엔진이 **아닌** 것
@@ -504,4 +504,4 @@ CR_ELECTROCHEM = VectorAxisSpec(key="omega_electrochemical", label="electrochemi
 
 ---
 
-*Chemical_Reaction_Foundation 설계 사양서 v0.1. CONCEPT.md §4.1 인식론적 계층도의 E5(화학) 빈칸을 채우기 위한 설계.*
+*Meterial 설계 사양서 v0.1. CONCEPT.md §4.1 인식론적 계층도의 E5(화학) 빈칸을 채우기 위한 설계.*

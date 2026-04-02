@@ -8,6 +8,12 @@
 - added package integrity tests
 - aligned release metadata for public repository preparation
 
+## v0.2.1
+
+- renamed public repository branding to `Meterial`
+- kept internal `chemical_reaction` package import stable for compatibility
+- refreshed README / metadata to reflect the new public name
+
 ## 0.1.0 — 2026-04-02
 
 - Initial release: E5 Chemistry layer for the 00_BRAIN Epistemic Stack.

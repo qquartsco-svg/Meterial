@@ -1,4 +1,4 @@
-# Chemical_Reaction_Foundation — Design Specification
+# Meterial — Design Specification
 
 > **English.** Korean (정본): [DESIGN_SPEC.md](DESIGN_SPEC.md)  
 > Epistemic position: **E5 Chemistry** — [EPISTEMIC_LAYER_MAP_EN.md](../../../EPISTEMIC_LAYER_MAP_EN.md)
@@ -33,7 +33,7 @@ Each engineering engine **consumes** chemistry as parameters, but no layer **exp
 
 ### One-line definition
 
-> **Chemical_Reaction_Foundation** = A foundation layer that tracks species transformation, energy exchange, equilibrium, and reaction rates. It provides an environment to observe **why reactions happen** (thermodynamics), **how fast** (kinetics), and **where they stop** (equilibrium).
+> **Meterial** = A foundation layer that tracks species transformation, energy exchange, equilibrium, and reaction rates. It provides an environment to observe **why reactions happen** (thermodynamics), **how fast** (kinetics), and **where they stop** (equilibrium).
 
 ### What this engine is **not**
 
@@ -153,4 +153,4 @@ Cold audit: composite Ω > 0.95 triggers warning; any single axis < 0.3 forces v
 
 ---
 
-*Chemical_Reaction_Foundation design spec v0.1. Fills the E5 (Chemistry) gap in the Epistemic Layer Map.*
+*Meterial design spec v0.1. Fills the E5 (Chemistry) gap in the Epistemic Layer Map.*

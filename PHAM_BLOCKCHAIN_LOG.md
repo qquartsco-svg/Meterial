@@ -1,5 +1,8 @@
 # PHAM_BLOCKCHAIN_LOG
 
+- `v0.2.1`
+  - public repository naming aligned to `Meterial`
+  - public-facing docs and metadata updated while preserving `chemical_reaction` import compatibility
 - `v0.2.0`
   - public hardening pass for `Chemical_Reaction_Foundation`
   - README / README_EN expanded for standalone public readers

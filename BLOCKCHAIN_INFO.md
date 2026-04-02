@@ -1,6 +1,6 @@
 # BLOCKCHAIN_INFO
 
-이 저장소는 `SIGNATURE.sha256` 를 통해 현재 공개 정본의 파일 해시를 기록한다.
+이 저장소 `Meterial` 은 `SIGNATURE.sha256` 를 통해 현재 공개 정본의 파일 해시를 기록한다.
 
 목적:
 
