@@ -1,0 +1,9 @@
+[project]
+name = "chemical-reaction-foundation"
+version = "0.2.0"
+description = "E5 Chemistry foundation — species, thermodynamics, kinetics, equilibrium, electrochemistry, ATHENA screening"
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends._legacy:_Backend"
